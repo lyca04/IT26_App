@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_today"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:title="Today"/>
+
+    <item android:id="@+id/nav_bible"
+        android:icon="@drawable/bible"
+        android:title="Bible"/>
+
+    <item android:id="@+id/nav_hymnal"
+        android:icon="@drawable/music"
+        android:title="Hymnal Song"/>
+
+    <item android:id="@+id/nav_setting"
+        android:icon="@drawable/set"
+        android:title="Settings"/>
+
+    <item android:id="@+id/nav_me"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Me"/>
+
+
+</menu>
