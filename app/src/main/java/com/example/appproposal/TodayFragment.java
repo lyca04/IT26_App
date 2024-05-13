@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
+import androidx.navigation.fragment.NavHostFragment;
 
 
 import android.view.LayoutInflater;
@@ -64,34 +64,20 @@ public class TodayFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_today, container, false);
-        Button button = (Button) view.findViewById(R.id.devotion);
+
+        Button button = view.findViewById(R.id.devotion);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMeFragment();
+                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.action_todayFragment_to_me, new MeFragment());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
+
         return view;
-    }
-    public void openMeFragment() {
-        // I-create ang instance sa MeFragment
-        MeFragment MeFragment = new MeFragment();
-
-        // Get the FragmentManager
-        FragmentManager fragmentManager = getParentFragmentManager();
-
-        // Begin the transaction to replace the fragment
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-
-        // Replace the container with the MeFragment
-        fragmentTransaction.replace(R.id.me, MeFragment);
-
-        // Add the transaction to the back stack to allow navigation back
-        fragmentTransaction.addToBackStack(null);
-
-        // Commit the transaction
-        fragmentTransaction.commit();
     }
 }
