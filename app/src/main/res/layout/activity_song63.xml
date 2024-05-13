@@ -1,9 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7EBAC"
     tools:context=".Song63Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amarante"
+                    android:text=".JESUS, MODUOL AKO"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="1"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gikan sa ako nga kaulipnan, Sa kagul-anan, sa kangitngitan, Nganha sa Imo nga kagawasan, Jesus moduol ko; Gikan sa ako nga balatian, Ug sa tumang kahangulan nako, Gikan sa ako nga kasal-anan, Modangop ko Nimo."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gikan sa akong paghisalaag, Ania na ako Jesu-Cristo, Nganha sa Imong krus nga bililhon, Jesus moduol ko; Gikan pa sa mga kalisdanan, Nganha sa hingpit Mo nga kalinaw, Gikan sa mga kapaitan, Modangop ko Nimo."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gikan man sa pagkamasupilon, Ania na ako Jesu-Cristo; Nganha sa Imo nga kabalaan, Jesus moduol ko; Gikan pa sa mga katalagman, Sa gahum Mo ako mopasilong, Imo nga dagway akong sud-ongon, Modangop ko Nimo.."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gikan man sa mga kadautan, Ug sa kahadlok man sa lubnganan, Ngadto sa puloy-anang langitnon, Jesus moduol ko."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gikan sa ako nga kalapasan, Ug sa tanan ko nga kapakyasan, Nganha sa Imong putli nga gugma, Modangop ko Nimo."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,9 +1,323 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Ruth2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Ruth 2"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Si Ruth didto sa Uma ni Boas"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1  Si Naomi may paryenti nga ginganlag Boas nga dato ug tinamod ug paryenti sa iyang bana nga si Elimelec."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  Miingon si Ruth kang Naomi, “Tugoti ako pag-adto sa kaumahan aron paghagdaw sa mga uhay nga gibilin sa mga mangangani. Manghagdaw ako sa luyo sa tawo nga motugot kanako niini.”
+Si Naomi mitubag, “Lakaw, anak.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3  Busa miadto si Ruth sa kaumahan ug nanghagdaw sa luyo sa mga mamumuo nga nag-ani sa mga sebada. Nahitabo nga uma kadto ni Boas nga paryenti ni Elimelec."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="4  Unya miabot si Boas gikan sa Betlehem. Ug giingnan niya ang mga mamumuo, “Ang Ginoo mag-uban kaninyo.”
+Mitubag ang mga mamumuo, “Panalanginan ka sa Ginoo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="5  Gipangutana ni Boas ang iyang sulugoon nga kapatas sa mga mamumuo, “Kinsa man kanang batan-ong babaye?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="6  Ang sulugoon nga kapatas mitubag, “Siya ang dumuduong nga mikuyog kang Naomi sa iyang pagpauli gikan sa Moab."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="7  Mihangyo siya sa pagpanghagdaw ug nanghagdaw siya sukad pa sa buntag ug karon pa siya mohunong aron mopasilong ug mopahulay sa makadiyot.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="8  Unya miingon si Boas kang Ruth, “Day, ayaw na panghagdaw sa ubang uma. Dinhi lang pangani uban sa akong mga sulugoon nga babaye."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="9 Kuyog kanila bisag asa sila mangani. Gipahimangnoan ko na ang akong mga tawo sa dili pagsamok kanimo. Kon uhawon ka, inom sa ilang kinalos nga tubig nga anaa sa mga tadyaw.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10  Unya miyukbo si Ruth ug ang iyang nawong midapat sa yuta. Miingon siya kang Boas, “Nganong nagtagad ug naluoy ka man kanako nga usa man lamang ako ka langyaw?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="11  Si Boas mitubag, “Gisuginlan ako sa tanan nga nahimo mo alang sa imong ugangan sukad pa sa pagkamatay sa imong bana. Nasayod ako nga gibiyaan mo ang imong mga ginikanan ug ang imong nasod aron pagpuyo kauban sa katawhan nga wala mo hiilhi kaniadto."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="12  Gantihan ka unta sa Ginoo tungod sa imong nahimo. Hinaot unta nga ang Ginoo, ang Dios sa Israel, nga imong gidangpan aron panalipdan ka magganti kanimo sa hingpit.”"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="13  Si Ruth mitubag, “Maluluy-on ka kaayo kanako ug gidasig mo ako sa malumo mong sinultihan bisan pag dili ako usa sa imong mga sulugoon.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="14  Sa pagpangaon nila, miingon si Boas kang Ruth, “Dali ngari ug pagkuhag pan ug ituslob sa bino.” Busa milingkod siya uban sa mga mamumuo ug gihatag ni Boas ang sinangag nga sebada ngadto kaniya. Mikaon siya ug nabusog ug may salin pa gani."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="15  Sa pag-adto niya aron sa pagpangani, giingnan ni Boas ang iyang mga sulugoon, “Tugoti siya sa pagpanigom bisan sa mga binugkos na ug ayaw siya badlonga."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="16  Kuhaa ang ubang uhay gikan sa binugkos ug ibilin aron iyang pamuniton ug ayaw siyag kasab-i.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="17  Busa si Ruth nanghagdaw didto sa kaumahan hangtod sa pagkagabii. Unya gigiok niya ang iyang nahagdaw ug nakatigom siyag mga lima ka gantang."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="18  Gidala niya kini ug mipauli siya sa lungsod ug gipakita niya kini sa iyang ugangan. Gihatag usab niya ang salin sa iyang gikaon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="19  Si Naomi nangutana kaniya, “Diin ka man manghagdaw karong adlawa? Kinsang uma ang imong gipanghagdawan? Panalanginan unta sa Dios ang tawo nga mitagad kanimo!”
+Gisuginlan ni Ruth si Naomi nga didto siya manghagdaw sa uma ni Boas."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="20  Miingon kaniya si Naomi, “Panalanginan unta siya sa Ginoo nga nagtuman kanunay sa iyang mga saad ngadto sa mga buhi ug sa mga patay.” Ug mipadayon siya, “Kanang tawhana suod natong paryenti ug usa sa may katungdanan kanato.””
+                    Ug nahimo kini."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="21  Unya si Ruth miingon, “Gisultihan usab ako niya pagpadayon sa pagpanghagdaw uban sa iyang mga sulugoon hangtod matapos ang ting-ani.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="22  Si Naomi miingon kang Ruth, “Anak, maayo hinuon nga magpabilin ka uban sa iyang mga sulugoon. Tingalig hasulon ka kon manghagdaw ka sa uma sa laing tawo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="23  Busa, nanghagdaw si Ruth uban sa mga sulugoon ni Boas ug gitigom niya ang mga uhay hangtod nga nahuman ug ani ang sebada ug trigo ug nagpadayon siya pagpuyo uban sa iyang ugangan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { openActivity2();
+                button.setEnabled(false);
 
+                // Call finish() para sa pag-back sa previous activity
+                finish();
             }
         });
     }

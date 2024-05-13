@@ -1,9 +1,405 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Abd1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Abdias 1"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1  Mao  kini ang panagna ni Abdias, ang giingon sa Ginoong Dios mahitungod sa nasod sa Edomea."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Silotan sa Ginoo ang Edomea"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="Gipadala sa Ginoo ang iyang sinugo ngadto sa kanasoran,
+ug nadungog namo ang iyang gisulti nga nag-ingon:
+“Ngari kamo! Makiggubat kita sa Edomea!”"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  Giingnan sa Ginoo ang nasod sa Edomea,
+“Ipaubos ko ikaw,
+ug tamayon ka pag-ayo sa tanang kanasoran."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3  Gilimbongan ka sa imong garbo.
+Nagpuyo ka sa usa ka kota nga bato;
+anaa sa ibabaw sa bukid ang imong puloy-anan,
+ug busa miingon ka sa imong kaugalingon,
+‘Kinsa bay makapukan kanako?’"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="4  Bisan pag molupad ka nga manganawkanaw sama sa agila,
+ug magsalag didto sa kabituonan,
+pukanon ko gihapon ikaw,” nag-ingon ang Ginoo. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="5  “Inigpangawat sa mga kawatan panahon sa kagabhion,
+kuhaon lamang nila ang ilang nagustohan.
+Ug kon ang mga tawo mamupo sa mga ubas,
+binlan gayod nilag diyutay.
+Apan ikaw gilaglag gayod sa hingpit sa imong mga kaaway."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="6  O mga kaliwat ni Esau, nakaplagan nila ang inyong bahandi
+ug gihurot nila kinig dala."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="7  Gibudhian kamo sa inyong mga kaabin,
+ug gihinginlan kamo gikan sa inyong nasod.
+Ang mga kaabin ninyo kaniadto mao nay mibuntog kaninyo.
+Ang mga higala nga nakigsalo kaninyo, milit-ag kaninyo
+ug miingon, ‘Hain na ba ang ilang kanhing kaigmat?’”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="8  Ang Ginoo miingon,
+“Inigsilot ko sa Edomea, laglagon ko ang ilang mga maalamon,
+ug wagtangon ko ang tanan nilang kaalam.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="9  Mangalisang ang mga manggugubat sa Teman,
+ug pamatyon ang tanang sundalo didto sa Bukid ni Esau."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Nganong Gisilotan ang Edomea"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10  “Tungod sa imong pagtulis sa imong mga kadugo nga kaliwat ni Jacob,
+laglagon ug pakaulawan ka hangtod sa kahangtoran."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="11  Wala ka lamang magtagad
+sa dihang gilumpag sa ilang mga kaawayng langyaw ang ilang mga ganghaan.
+Sama ka ra kadaotan niadtong mga dumuduong
+nga mitulis sa bahandi sa Jerusalem ug mibahinbahin niini."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="12  Dili mo unta angayng ikalipay
+ang kadaot nga naagoman sa imong kaigsoonan didto sa Juda.
+Dili ka unta angayng magmaya
+sa adlaw sa ilang pagkalaglag.
+Dili ka unta angayng mokatawa kanila
+sa panahon sa ilang kalisdanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="13  Dili ka unta angayng mosulod sa siyudad sa akong katawhan,
+aron magmaya sa katalagman nga ilang nahiagoman.
+Dili ka unta angay mangawat sa ilang bahandi
+sa adlaw sa ilang katalagman."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="14  Dili ka unta angayng magbarog sa kinasang-an sa dalan,
+aron pagsanta niadtong buot moikyas.
+Wala mo unta sila itugyan ngadto sa kaaway
+sa adlaw sa ilang kagul-anan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Silotan sa Dios ang Kanasoran"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="15  “Duol na ang adlaw nga ako, ang Ginoo,
+mosilot sa tanang kanasoran.
+Ang gibuhat mo, Edomea, buhaton usab kanimo.
+Ang imong gihatag mao usab ang imong madawat."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="16  Miinom ang akong katawhan
+ug usa ka tasa sa mapait nga silot didto sa balaan kong bungtod.
+Apan labaw sa kangilngig ang silot
+nga imnon sa tanang kasikbit nga kanasoran;
+magpatuyang silag inom ug unya mangahanaw sila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang Pagdaog sa Israel"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="17  “Apan may makaikyas didto sa Bukid sa Sion
+ug mahimo kining dapit nga balaan.
+Mapanag-iya sa katawhan ni Jacob
+ang yuta nga ilaha gayod."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="18  Sama sa kalayo ang katawhan ni Jacob ug ni Jose;
+laglagon nila ang katawhan ni Esau
+sama nga ang dagami ugdawon sa kalayo.
+Walay makaikyas sa kaliwat ni Esau.
+Ako, ang Ginoo, maoy nagsulti niini."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="19  “Panag-iyahon ang Bukid ni Esau sa mga Israelita sa Negeb;
+kadtong atua sa kabungtoran sa Judea manag-iya sa yuta sa mga Filistihanon.
+Ang kayutaan sa Efraim ug Samaria panag-iyahon usab sa mga Israelita,
+ug ang kaliwat ni Benjamin manag-iya sa Gilead."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="20  Ang mga hininginlang kasundalohan gikan sa amihanang gingharian sa Israel
+mobuntog sa yuta sa mga Feniciahanon hangtod sa Sarefat.
+Ilogon usab ang kalungsoran sa Negeb
+sa mga hininginlang lumolupyo sa Jerusalem nga atua na magpuyo sa Sardis."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="21  Motungas sa Bukid sa Sion ang mga madaugong Israelita aron magmando niini;
+magmando sila sa Bukid ni Esau
+ug ang Ginoo maoy ilang Hari.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
