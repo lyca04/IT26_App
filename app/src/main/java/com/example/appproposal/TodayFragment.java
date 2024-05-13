@@ -1,12 +1,18 @@
 package com.example.appproposal;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +65,33 @@ public class TodayFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_today, container, false);
+        View view = inflater.inflate(R.layout.fragment_today, container, false);
+        Button button = (Button) view.findViewById(R.id.devotion);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMeFragment();
+            }
+        });
+        return view;
+    }
+    public void openMeFragment() {
+        // I-create ang instance sa MeFragment
+        MeFragment MeFragment = new MeFragment();
+
+        // Get the FragmentManager
+        FragmentManager fragmentManager = getParentFragmentManager();
+
+        // Begin the transaction to replace the fragment
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        // Replace the container with the MeFragment
+        fragmentTransaction.replace(R.id.me, MeFragment);
+
+        // Add the transaction to the back stack to allow navigation back
+        fragmentTransaction.addToBackStack(null);
+
+        // Commit the transaction
+        fragmentTransaction.commit();
     }
 }

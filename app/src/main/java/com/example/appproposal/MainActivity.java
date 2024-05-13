@@ -21,7 +21,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button;
+    private Button button, button1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         button = (Button) findViewById(R.id.amen);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { openActivity2();
@@ -41,4 +42,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity2.class);
         startActivity(intent);
     }
+
 }
