@@ -1,9 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7EBAC"
     tools:context=".Song13Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amarante"
+                    android:text="JESUS KATAM-IS MO GAYUD "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="1"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Jesus katam-is mo gayud,'Nia ning dughan ko; Apan labing matam-is pa, Kong masud-ong Ikaw."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Walay maawit king dughan, Walay hinumduman; Walay labing matam-is pa, Sa ngalan Mo, Jesus."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Sa nasubo'g naghinulsol, Ang paglaum Ikaw; Ug maluloy-on Ka usab, Sa mga nagtawag."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Kinsa ba ang magpaila, Sa gugma ni jesus? Ang mga nahigugma N'ya, Maoy makasaysay. AMEN."/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

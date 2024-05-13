@@ -1,9 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7EBAC"
     tools:context=".Song12Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amarante"
+                    android:text="GABIING BALAAN"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="1"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gabing balaan, Mahilum ang tanan Sa natawo ang Ginoo, Gibantayan sa inahan Niva, Sa langitnong kalinaw, 'Niang Mesias karon"
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gabiing balaan, Makita'ng Himaya; Ang panon nga langitnon. Nagaawit Aleluya! 'Nia na'ng Manluluwas, 'Nia ang Cristo karon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gabiing balaan, Ang Diosnong kahayag Midan-ag sa yuta man, Aron maluwas ang tanan, 'Nia na ang Ginoo, 'Nia si Jesus karon."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Gabiing balaan, Madulom ang tanan, Gawas lang sa pasungan, Ang kahayag sa kalibutan; Dalayegon ang Dios, 'Niang Mesias karon"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,9 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7EBAC"
     tools:context=".Song8Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amarante"
+                    android:text="ANG DYUTAYNG LUNGSOD SA BELEN "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="1"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text=". Ang. dyutayng lungsod sa Belen nagmalinawaon man, Niadtong hilum nga dapit dunay nagalamdag; Ang dayon nga kahayag gihatag na sa Dios, Ang gipangandoy sa tanan natawo na sa Belen."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Ug si Maria nanganak sa batang si Jesus, Ang langitnong mga panon kang Jesus nagtukaw; Kabugasong bituon, isangyaw na Siya, Sa mga awit daygon S'ya, ang Dios nga Hari ta."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/bigshot_one"
+                    android:text="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Sa hilum ug kalinaw man gihatag si Jesus, Ug sa ingon madawat ta ang panalangin N'ya; Bisa'g makasasala dawaton ni Jesus, Kon malumo ang dughan mo, si Cristo, mosulod"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

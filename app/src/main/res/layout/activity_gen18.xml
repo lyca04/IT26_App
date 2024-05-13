@@ -1,9 +1,475 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Gen18">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Genesis 18"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Usa ka Anak nga Lalaki ang Gisaad ngadto kang Abraham"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1  Ang Ginoo mipakita kang Abraham didto sa sagradong mga kahoy ni Mamre. Naglingkod si Abraham sa pultahan
+                    sa iyang tolda sa udtong tutok."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  Sa paglantaw niya sa unahan, nakita niya ang tulo ka tawo nga nagbarog. Busa midagan siya aron pagtagbo sa mga
+                     tawo ug mihapa siya sa yuta ug"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3  miingon, “Sir, andam ako sa pag-alagad kaninyo busa hapit intawon kamo
+                     sa akong balay. ”
+                    Ug mitungha ang kahayag."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="4  Tugoti nga magpakuha akog tubig aron makahimasa kamo ug makapahulay
+                     kamo dinhi ubos niining kahoy."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="5  Magkuha akog pagkaon aron mabaskog kamo ug makapadayon sa inyong panaw. Andam ako pag-alagad kaninyo kay mianhi man kamo sa akong balay.”
+Sila mitubag, “Kon mao kana, buhata ang imong giingon.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="6  Midali si Abraham pagsulod sa tolda ug giingnan niya si Sara, “Pagkuhag usa ka sako sa imong labing maayong harina ug paglutog
+                    pan. Dalia kini paghimo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="7  Unya midagan si Abraham ngadto sa kahayopan ug nagpili siyag nating baka nga tambok ug humok pa ug gihatag niya kini sa iyang ulipon; gidali
+                    usab kini paghikay sa ulipon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="8  Unya nagkuha si Abraham ug keso, lab-as nga gatas ug karne ug gidulot niya kini sa mga tawo. Samtang nagkaon sila, nagbarog
+                    siya duol kanila ubos sa kahoy."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="9  Unya nangutana sila kaniya, “Hain man ang imong asawa nga si Sara?”
+“Anaa sa sulod sa tolda,” mitubag siya."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10  Ang usa kanila miingon, “Isaad ko kanimo nga mobalik ako sa sunod tuig. Nianang panahona, ang imong asawa si Sara manganak ug batang lalaki.”
+Si Sara diay namati didto sa pultahan sa tolda luyo kang Abraham."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="11  Si Abraham ug si Sara tigulang na kaayo ug si Sara wala na abti
+                    sa iyang binulan. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="12  Busa mikatawa si Sara sa iyang kaugalingon ug miingon, “Karon nga tigulang na ako ug tigulang na usab ang akong bana,
+                    unsaon man namo pagpanganak?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="13  Unya nangutana ang Ginoo kang Abraham, “Nganong mikatawa man si Sara ug miingon, ‘Makabaton pa ba gud kog anak nga
+                     tigulang na man ako kaayo?’"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="14  Aduna ba goy dili mahimo sa Ginoo? Sa sunod tuig mobalik ako kaninyo
+                    ug si Sara manganak ug batang lalaki.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="15  Gilimod kini ni Sara kay nahadlok man siya. Miingon siya, “Wala ako mokatawa, uy.”
+Apan ang Ginoo mitubag, “Mikatawa ka.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Nag-ampo si Abraham alang sa Sodoma"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="16  Unya mibiya ang mga tawo ug miadto sa usa ka dapit diin makita nila sa ubos ang Sodoma.
+                    Mikuyog si Abraham aron pagpagikan kanila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="17  Ang Ginoo miingon, “Dili ko ikatago gikan kang
+                    Abraham ang akong buhaton."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="18  Ang iyang mga kaliwat mahimong dako ug gamhanang nasod ug pinaagi kaniya panalanginan ko ang tanan nga nasod sa kalibotan.18:18 pinaagi kaniya panalanginan…kalibotan; o ang tanan nga nasod sa kalibotan maghangyo kanako nga panalanginan ko sila ingon sa akong
+                     pagpanalangin kaniya."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="19  Gipili ko siya aron sugoon niya ang iyang mga anak ug ang iyang umaabot nga panimalay sa pagtuman sa akong mga sugo pinaagi sa pagbuhat sa husto ug matarong. Kon buhaton nila kini, buhaton ko kaniya ang
+                     tanan nga akong gisaad.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="20  Unya miingon kang Abraham ang Ginoo, “Hilabihan na ang mga mulo batok sa Sodoma ug sa Gomora ug
+                    ang ilang sala dako kaayo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="21  Busa moadto ako aron susihon kon tinuod ba ang mga mulo
+                    nga akong nadungog.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="22  Unya mibiya ang duha ka tawo ug mipadayon paingon sa Sodoma apan
+                    nagpabilin ang Ginoo uban kang Abraham."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="23  Giduol ni Abraham ang Ginoo ug gipangutana, “Laglagon mo ba gayod ang
+                    mga matarong uban sa mga makasasala?"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="24  Pananglit adunay 50 ka tawo nga walay sala didto, laglagon mo ba ang tibuok siyudad? Dili mo ba kini pasayloon
+                     aron lamang pagluwas sa 50 ka tawo?"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="25  Sa walay duhaduha dili mo gayod patyon ang mga walay sala uban sa mga makasasala. Dili mo kana mabuhat! Kay kon buhaton mo kini, ang mga walay sala mahiagom sa silot uban sa mga makasasala. Dili kana mahitabo! Ang Maghuhukom sa tibuok kalibotan kinahanglang
+                    magbuhat sa angay gayod.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="26  Ang Ginoo miingon, “Kon makakaplag akog 50 ka tawo nga matarong didto sa Sodoma, dili ko silotan ang
+                    tibuok siyudad tungod lamang kanila.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="27  Unya miingon na usab si Abraham, “Ginoo, pasayloa nga mangahas ako pagpadayon sa pagpakigsulti kanimo. Tawo lamang
+                    ako ug walay katungod pagsulti bisan unsa."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="28  Apan tingalig aduna lamay 45 ka tawo nga matarong didto inay 50. Laglagon mo ba ang tibuok siyudad tungod lang kay kulang ug lima?”
+Ang Ginoo mitubag, “Dili ko laglagon ang siyudad kon makakaplag akog 45 ka tawo nga matarong.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="29  Unya miingon na usab si Abraham, “Tingalig 40 ra ka tawo ang matarong.”
+Ang Ginoo mitubag, “Dili ko laglagon kini kon adunay 40 ka tawo nga matarong.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="30  Si Abraham miingon, “Ayaw intawon kasuko, Ginoo, nga mopadayon ako sa pagsulti. Pananglit 30 lamang ka tawo sila?”
+Ang Ginoo mitubag, “Dili ko laglagon kini kon makakaplag akog 30 ka tawo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="31  Miingon si Abraham, “Pasayloa intawon ako, Ginoo, nga mangahas ako pagpadayon sa pagpakigsulti kanimo. Pananglit makakaplag ka lamag 20 ka tawo?”
+Ang Ginoo mitubag, “Dili ko laglagon ang siyudad kon makakaplag akog 20 ka tawo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="32  Si Abraham miingon, “Ayaw intawon kasuko, Ginoo, niining kataposan kong pagsulti. Pananglit aduna lamay napulo nga imong makaplagan, unsa may mahitabo?”
+Ang Ginoo mitubag, “Dili ko kini laglagon kon adunay napulo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="33  Human siya makigsulti kang Abraham, mibiya ang Ginoo ug mipauli si Abraham."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
