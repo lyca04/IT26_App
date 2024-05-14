@@ -1,17 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7EBAC"
     tools:context=".SettingFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="30sp"
-        android:text="SETTING"
-        android:background="@color/design_default_color_secondary"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/charm"
+            android:text="Settings"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/bright"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/baseline_brightness_7_24"/>
+
+        <TextView
+            android:id="@+id/morning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bright"
+            android:layout_marginTop="133dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/charm"
+            android:textColor="@color/black"
+            android:text="Morning Prayer Alarm"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/dark"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/baseline_mode_night_24"/>
+
+        <TextView
+            android:id="@+id/night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dark"
+            android:layout_marginTop="208dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/charm"
+            android:text="Night Prayer Alarm"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/file"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/baseline_file_open_24"/>
+
+        <TextView
+            android:id="@+id/openfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/file"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/charm"
+            android:text="Terms and Condition"
+            android:onClick="onClick"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/badge"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/baseline_badge_24"/>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/badge"
+            android:layout_marginTop="342dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/charm"
+            android:text="About"
+            android:onClick="onClick"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginLeft="250dp"
+            android:src="@drawable/logo2"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/morning"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="135dp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@id/night"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="213dp" />
+
+
+    </RelativeLayout>
+    
+</LinearLayout>
