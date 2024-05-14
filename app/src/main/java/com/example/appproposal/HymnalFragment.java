@@ -1,17 +1,24 @@
     package com.example.appproposal;
 
+    import static java.util.Locale.filter;
+
     import android.content.Intent;
     import android.os.Bundle;
 
     import androidx.fragment.app.Fragment;
 
+    import android.util.Log;
+    import android.util.SparseArray;
     import android.view.LayoutInflater;
+    import android.view.Menu;
+    import android.view.MenuItem;
     import android.view.View;
     import android.view.ViewGroup;
     import android.widget.AdapterView;
     import android.widget.ArrayAdapter;
     import android.widget.ListView;
-    import android.widget.SearchView;
+    import androidx.appcompat.widget.SearchView;
+
     import android.widget.TextView;
 
     import com.google.firebase.database.DatabaseReference;
@@ -25,10 +32,11 @@
      * create an instance of this fragment.
      */
     public class HymnalFragment extends Fragment {
-
-        private DatabaseReference databaseReference; // Reference to your Firebase Database
-        private TextView searchResultTextView;
+        private ArrayAdapter<String> arrayAdapter;
+        private List<String> list;
         private SearchView searchView;
+
+
 
         // TODO: Rename parameter arguments, choose names that match
         // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -77,8 +85,9 @@
             View rootView = inflater.inflate(R.layout.fragment_hymnal, container, false);
 
             ListView listView = rootView.findViewById(R.id.listview);
+            searchView = rootView.findViewById(R.id.search_view);
 
-            List<String> list = new ArrayList<>();
+            list = new ArrayList<>();
             list.add("1. GINOO KOTA NGA LIG-ON"); list.add("2. ANG ATONG DIOS MAKAGAGAHUM ");
             list.add("3. MATINUMANNON KA"); list.add("4. ANG DIOS MAN MAGABANTAY");
             list.add("5. ANG LANGITNON DAPIT GIBIYAAN MO"); list.add("6. ANG YUTA MAY KATAHUM");
@@ -204,7 +213,9 @@
             list.add("245. NGANO MAN?"); list.add("246. GINOO IPADALA AKO");
             list.add("247. ANG PUTLING GUGMA MO GIKINAHANGLAN"); list.add("248. MGA ANGHEL SA HIMAYA");
 
-            ArrayAdapter arrayAdapter = new ArrayAdapter(getActivity().getApplicationContext(), android.R.layout.simple_list_item_1, list);
+            Log.d("ListContents", list.toString());
+
+            arrayAdapter = new ArrayAdapter(getActivity().getApplicationContext(), android.R.layout.simple_list_item_1, list);
             listView.setAdapter(arrayAdapter);
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -966,7 +977,41 @@
                     }
                 }
             });
+
+            // Add search functionality
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                @Override
+                public boolean onQueryTextSubmit(String query) {
+                    // Handle submission if needed
+                    return false;
+                }
+
+                @Override
+                public boolean onQueryTextChange(String newText) {
+                    filter(newText);
+                    return true;
+                }
+            });
+
             return rootView;
         }
 
+        // Method to filter the list based on the search query
+        private void filter(String text) {
+            List<String> filteredList = new ArrayList<>();
+            if (text.isEmpty()) {
+                // If the search query is empty, show all items in the original list
+                filteredList.addAll(list);
+            } else {
+                // Otherwise, filter the list based on the search query
+                for (String hymn : list) {
+                    if (hymn.toLowerCase().contains(text.toLowerCase())) {
+                        filteredList.add(hymn);
+                    }
+                }
+            }
+            arrayAdapter.clear();
+            arrayAdapter.addAll(filteredList);
+            arrayAdapter.notifyDataSetChanged();
+        }
     }

@@ -8,13 +8,12 @@
     tools:context=".HymnalFragment">
 
    <androidx.appcompat.widget.SearchView
-       android:id="@+id/search"
+       android:id="@+id/search_view"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_margin="8dp"
        android:background="@drawable/search_view_bg"
        app:queryHint="Search here"/>
-
 
    <ListView
        android:id="@+id/listview"

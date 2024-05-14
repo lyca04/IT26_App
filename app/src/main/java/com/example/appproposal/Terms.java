@@ -1,27 +1,19 @@
 package com.example.appproposal;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.fragment.NavHostFragment;
-
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link TodayFragment#newInstance} factory method to
+ * Use the {@link Terms#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TodayFragment extends Fragment {
-
-
+public class Terms extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -32,7 +24,7 @@ public class TodayFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public TodayFragment() {
+    public Terms() {
         // Required empty public constructor
     }
 
@@ -42,11 +34,11 @@ public class TodayFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment TodayFragment.
+     * @return A new instance of fragment Terms.
      */
     // TODO: Rename and change types and number of parameters
-    public static TodayFragment newInstance(String param1, String param2) {
-        TodayFragment fragment = new TodayFragment();
+    public static Terms newInstance(String param1, String param2) {
+        Terms fragment = new Terms();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -66,23 +58,7 @@ public class TodayFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_today, container, false);
-
-        Button button = view.findViewById(R.id.today_devotion);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FragmentManager fragmentManager = getParentFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-
-                MeFragment targetFragment = new MeFragment();
-
-                fragmentTransaction.replace(R.id.drawer_layout, targetFragment);
-                fragmentTransaction.addToBackStack(null); // Optional: Adds transaction to the back stack
-                fragmentTransaction.commit();
-            }
-        });
-
-        return view;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_terms, container, false);
     }
 }
