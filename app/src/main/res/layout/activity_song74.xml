@@ -25,11 +25,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="JESUS, KATINGALAHAN ΚΑ"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Jesus katingalahan Ka, Bantugan sa tanan! Katam-is Mo di malitok, Kalipay sa tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa dughan mosulod Ikaw, Kahayag modan-ag; Unya ako magdilaab, Sa gugmang langitnon."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Jesus kahayag sa tanan, Ug kinabuhi Ka! Kalipay ug pangandoy man, Nga dili matupngan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Dalaygon Ka sa kanunay, Ang putling gugma Ka! Sa among kinabuhi man, Makita unta Ka. AMEN."
                     android:textAlignment="center"
                     android:textSize="22dp" />

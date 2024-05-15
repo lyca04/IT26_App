@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="45dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SILOT KONG TANAN IYANG GIBAYRAN"
-                    android:textSize="21dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Si Jesus nag-ingon, Maluyahon ikaw; Magabantay'g mag-ampo, Ug lig-onon ko ikaw."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -62,10 +68,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:textAlignment="center"
-                    android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
-                    android:text="Silot kong tanan, lyang gibayran, Kasing-kasing ko karon, Iyang gihinloan."/>
+                    android:text="Silot kong tanan, lyang gibayran, Kasing-kasing ko karon, Iyang gihinloan."
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,6 +87,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Nakita kong gahum, Kanimo, O Jesus; May mga nakasala, Nga Imong gihinloan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -101,6 +109,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang kaluwasan ko, 'Naa sa grasya Mo; Ug ako nahinloan, Sa dugo sa Cordero"/>
 
                 <TextView
@@ -119,6 +129,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa akong pagbarug, Sa atubangan Mo; Ang pagdayeg ko kini, Imong gitubos ako!"/>
 
 

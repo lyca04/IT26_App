@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="PAGTUGYANG HINGPIT"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text=".Pagtugyang hingpit, O Ginoo, Maoy pangandoy nako karon; Sa atubangan Mo ihalad kong tanan, Ako giluwas Mo; Imo ako."
+                    android:text="Pagtugyang hingpit, O Ginoo, Maoy pangandoy nako karon; Sa atubangan Mo ihalad kong tanan, Ako giluwas Mo; Imo ako."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 

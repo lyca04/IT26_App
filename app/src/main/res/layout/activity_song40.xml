@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="TUBURAN SA PANALANGIN "
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Tuburan sa panalangin, Sa pag-awit mandoi; Sa kaluoy Mo nga dayon, Sa pagday'g hatagan Ka. Tudioi sa alawiton, Sa pagdayeg kang Jesus; Imong gugma man nga hingpit, Maoy gugmang tuburan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Dinhi ako nga timan-an, Ang langitnong tabang N'ya; Ug Kaniya ko milaum, Sa puloy-ang langitnon. Gipangita man ko Niya, Sa nahisalaag pa; Ang dugo Niya giula, Alang sa akong sala."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Utang ko di g'yud hitupngan, Nakatabang grasya Mo; Imong gugma di mabugto, Nga kanako naghigut. Hilig ko sa paghisaag, Ug sa pagpasaylo Mo; Kasing-kasing ko patiki, Ug angkona na, Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />

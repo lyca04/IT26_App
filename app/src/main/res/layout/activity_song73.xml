@@ -25,11 +25,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                   android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="PULONG KATINGALAHAN"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,7 +45,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:text=". Ang pag-awit sublion ta, Pulong katingalahan; Palandungon ang katahum, Pulong sa kinabuhi. Matahum man nga Pulong, Sa pagtoo nagtudlo,"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text=" Ang pag-awit sublion ta, Pulong katingalahan; Palandungon ang katahum, Pulong sa kinabuhi. Matahum man nga Pulong, Sa pagtoo nagtudlo,"
                     android:textAlignment="center"
                     android:textSize="22dp" />
 
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pagkatahum! Pulong sa Dios! Pulong sa Kinabuhi; Pagkatahum! Pulong sa Dios! Pulong sa Kinabuhi."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Si Jesus nagahatag na, Pulong katingalahan; Pamation S'yang nagtawag, Pulong sa kinabuhi. Ang tanan gina-awhag, Alang sa kaluwasan."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -99,6 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang Balita isangyaw na, Pulong katingalahan; Pasayloong nakasala, Pulong sa kinabuhi. Bugtong nga Manluluwas, Sagupa sa gihapon."
                     android:textAlignment="center"
                     android:textSize="22dp"/>

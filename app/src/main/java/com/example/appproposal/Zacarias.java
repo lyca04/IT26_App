@@ -106,11 +106,11 @@ public class Zacarias extends AppCompatActivity implements View.OnClickListener{
             startActivity(i);
         }
         if (viewId == R.id. zac13){
-            i = new Intent(this, Zac3.class);
+            i = new Intent(this, Zac13.class);
             startActivity(i);
         }
         if (viewId == R.id. zac14){
-            i = new Intent(this, Zac4.class);
+            i = new Intent(this, Zac14.class);
             startActivity(i);
         }
     }

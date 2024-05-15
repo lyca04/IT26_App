@@ -1,9 +1,267 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Mal2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Malaquias 2"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1  “Karon aniay sugo alang kaninyong mga pari:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  kinahanglan inyo akong pasidunggan. Kon dili kamo magpatalinghog kanako ug kon dili kamo magpasidungog kanako, tunglohon ko kamo. Tunglohon ko ang mga butang nga inyong madawat alang sa inyong kabuhian. Gani gitunglo ko na man kini kay wala ninyo tumana ang akong sugo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3  Kastigohon ko ang inyong mga anak ug ibagnos ko ang inyong nawong sa tai sa mga mananap nga inyong gihalad ug ipanglabog ko kamo uban niini."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="4  Sa ingon nga paagi masayran ninyo nga gisugo ko kini kaninyo aron magpabilin nga lig-on ang akong kasabotan uban sa mga pari nga mga kaliwat ni Levi,” matod sa Ginoo nga Labing Gamhanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="5  “Sa akong kasabotan gisaaran ko silag kinabuhi ug maayong kahimtang ug gihatag ko kining tanan aron ila akong tahoron. Tuod man, ila akong gitahod ug gikahadlokan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="6  Gitudlo nila ang husto, dili ang sayop. Nagkinabuhi sila uyon kanako. Gibuhat nila ang matarong ug daghan silag gitabangan aron makabiya sa mga buhat nga daotan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="7  Katungdanan sa mga pari ang pagtudlo sa matuod nga kaalam mahitungod sa Dios. Kinahanglan adto kanila ang katawhan magpakisayod bahin sa akong kabubut-on kay sila mao man ang mga sinugo sa Ginoo nga Labing Gamhanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="8  “Apan kamo nga mga pari mibiya sa kamatuoran. Ang gitudlo ninyo nagtukmod hinuon sa kadaghanan sa pagbuhat ug sayop. Gilapas ninyo ang kasabotan nga akong gibuhat uban kaninyo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="9  Busa pakaulawan kamo sa katawhan sa Israel tungod kay wala ninyo tumana ang akong kabubut-on ug may pinalabi kamo sa inyong pagpanudlo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang Pagkadili Matinumanon sa Israel"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10  Dili ba usa ray amahan natong tanan? Dili ba mao ra nga Dios ang nagbuhat kanato? Kon mao kana, nganong gilapas man nato ang atong saad sa usag-usa ug nganong gisalikway man nato ang kasabotan nga gihimo sa Dios uban sa atong mga katigulangan?"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="11  Gilapas sa katawhan sa Juda ang ilang gisaad sa Dios ug nagbuhat silag ngil-ad nga butang sa Israel ug sa Jerusalem. Gipasipalahan nila ang Templo nga gimahal sa Dios. Ang ilang kalalakin-an nangasawa sa mga babaye nga nagsimbag laing mga dios."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="12  Kuhaon unta sa Ginoo gikan sa atong nasod ang nagbuhat niini ug dili na gayod hatagag higayon sa pagdalag mga halad alang sa Ginoo nga Labing Gamhanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="13  Ania pay gibuhat ninyo: nagpunay kamog hilak diha sa halaran sa Ginoo tungod kay wala na man niya dawata ang inyong mga halad."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="14  Ug mangutana kamo kon ngano kini? Tungod kay nasayod siya nga wala ninyo tumana ang inyong gisaad sa inyong asawa sa dihang gikasal kamo sa batan-on pa kamo. Ang inyong asawa inyong gibudhian bisag nagsaad kamo sa Dios nga magminatud-on ngadto sa inyong asawa."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="15  Wala ba kamo hiusaha sa Dios sa lawas ug sa espiritu? Unsay tuyo niya niini? Aron makabaton kamog mga anak nga tinuod nga katawhan sa Dios. Busa pagmatngon kamo nga dili ninyo lapason ang gisaad ninyo sa inyong asawa sa dihang gikasal kamo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="16  “Dili ko gusto nga bulagan ninyo ang inyong asawa,” nag-ingon ang Ginoo, ang Dios sa Israel. “Dili ako gusto nga buhaton sa bana kining daotang butang ngadto sa iyang asawa. Busa pagmatngon kamo ug ayaw ninyog lapasa ang inyong gipanumpa ngadto sa inyong asawa.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Duol na ang Adlaw sa Paghukom"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="17  Gipul-an na ang Ginoo sa inyong gipanulti. Apan nag-ingon kamo, “Sa unsang paagiha gihago namo siya?” Sa inyong pag-ingon, “Alang sa Ginoo maayong tawo kadtong nagbuhat ug daotan ug nahimuot siya sa maong tawo,” o sa pagpangutana, “Hain na ba ang Dios nga matarong?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

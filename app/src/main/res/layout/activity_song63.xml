@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
-                    android:text=".JESUS, MODUOL AKO"
-                    android:textSize="25dp"/>
+                    android:text="JESUS, MODUOL AKO"
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Gikan sa ako nga kaulipnan, Sa kagul-anan, sa kangitngitan, Nganha sa Imo nga kagawasan, Jesus moduol ko; Gikan sa ako nga balatian, Ug sa tumang kahangulan nako, Gikan sa ako nga kasal-anan, Modangop ko Nimo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Gikan sa akong paghisalaag, Ania na ako Jesu-Cristo, Nganha sa Imong krus nga bililhon, Jesus moduol ko; Gikan pa sa mga kalisdanan, Nganha sa hingpit Mo nga kalinaw, Gikan sa mga kapaitan, Modangop ko Nimo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Gikan man sa pagkamasupilon, Ania na ako Jesu-Cristo; Nganha sa Imo nga kabalaan, Jesus moduol ko; Gikan pa sa mga katalagman, Sa gahum Mo ako mopasilong, Imo nga dagway akong sud-ongon, Modangop ko Nimo.."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +108,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Gikan man sa mga kadautan, Ug sa kahadlok man sa lubnganan, Ngadto sa puloy-anang langitnon, Jesus moduol ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -117,6 +128,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Gikan sa ako nga kalapasan, Ug sa tanan ko nga kapakyasan, Nganha sa Imong putli nga gugma, Modangop ko Nimo."
                     android:textAlignment="center"
                     android:textSize="22dp" />

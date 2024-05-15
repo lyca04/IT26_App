@@ -29,7 +29,8 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="ANG KINABUHI KO MATAG GUTLO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"
+                    android:textAlignment="center"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +46,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang kinabuhi ko matag gutlo, May kusog batok sa pagsulay; Kay nagsalig ko sa Amahang Dios, Nga nagpala sa kahadlok ko; Si Jesus gayud ang maluluy-on; Nagahatag sa labing mahal; 'Naa S'ya sa akong kagul-anan, S'yang kalipay ug pahulay ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +66,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Matag adlaw lya kong kuyogan, Sa malulot man nga grasya N'ya; Ug ang akong mga kasakitan, İya nga giangkon ang tanan; Si Jesus ra ang labing gamhanan, Sa mga mahal Niyang anak, Sa kalig-on lya kong hatagan, Kay kini mao ang saad N'ya."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -81,6 +86,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Ug karon buligi ko, Ginoo, Sa mga pag-antos kong tanan; Ang pahulay ug ang mga saad, 'Naa sa Balaang Pulong Mo; Taliwala sa mga pag-antus, Modangop gayud ko kang Jesus, Hangtud nga ako mahiabot na, Sa puloy-an nga gisaad Mo."
                     android:textAlignment="center"
                     android:textSize="22dp"/>

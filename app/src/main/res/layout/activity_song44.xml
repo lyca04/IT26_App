@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="ANG BUGTONG PATUKORANAN"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Bugtong patukoranan Mao man si Jesus; Ang buhi nga Iglesya gihinloan Niya; Nanaug S'ya sa langit ug nagpakamatay; Sa paglukat sa lya nga pangasaw-onon."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Mga pinili Niya sa nasud nga tanan, Sa gugma ug pagtoo binugkosan sila; Ang ngalan nga balaan maoy paglitokon, Sa grasya sinangkapan, paglaum ug kusog."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Diha sa kasakitan, kabudlay, pagdumot, Sa dayon nga kalinaw magahulat sila; Unya ang gipaabut makita man gayud, Iglesyang madaugon makapahulay na."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +108,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Tanang mga balaan sa langit, yuta man, May pagpakig-ambitay diha sa buhing Dios; Mandoi, O Ginoo, uban sa grasya Mo, Ug hangtud nga dangaton man ang Himaya Mo. AMEN"
                     android:textAlignment="center"
                     android:textSize="22dp" />

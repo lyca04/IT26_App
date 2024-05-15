@@ -15,7 +15,7 @@
         <LinearLayout
             android:id="@+id/layoutToolbar"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="45dp"
             android:orientation="horizontal"
             android:background="#9C814E"
             android:paddingStart="15dp"
@@ -24,11 +24,19 @@
 
             <ImageView
                 android:id="@+id/imageView1"
-                android:layout_marginTop="2dp"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/menu"
-                app:tint="#C4A484" />
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:src="@drawable/menu" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="70dp"
+                android:layout_marginTop="6dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="290dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo2" />
 
         </LinearLayout>
 

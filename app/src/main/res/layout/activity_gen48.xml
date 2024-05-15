@@ -1,9 +1,308 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Gen48">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Genesis 48"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Gipanalanginan ni Jacob si Efraim ug si Manases"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1 Wala madugay, gibalitaan si Jose nga masakiton ang iyang amahan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="2 Sa dihang gisultihan si Jacob nga ang iyang anak nga si Jose miabot aron pagduaw kaniya, nanglimbasog siya pagbangon ug milingkod sa iyang higdaanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3 Miingon si Jacob kang Jose, “Ang Labing Gamhanang Dios nagpakita kanako didto sa Luz sa yuta sa Canaan ug gipanalanginan niya ako."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="4 Giingnan niya ako, ‘Hatagan ko ikaw ug daghang kaliwat ug pasanayon ko sila hangtod nga mahimo silang daghan nga katawhan. Ihatag ko kanila kining yutaa ug maila na kini hangtod sa hangtod.’"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="5 Ang duha mo ka anak nga natawo dinhi sa Ehipto sa wala pa ako moanhi, akoa na. Si Efraim ug si Manases isipon ko nga kaugalingon kong mga anak sama kang Ruben ug kang Simeon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="6 Apan ang imong mga anak nga matawo sunod kanila imo na gayod. Makadawat sila sa ilang bahin gikan sa mapanunod ni Efraim ug ni Manases."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="7 Gihimo ko kini kay sa akong pag-uli gikan sa Mesopotamia namatay si Raquel didto sa yuta sa Canaan sa layo pa kamig diyutay sa Efrata ug gikaguol ko kini. Gilubong ko siya didto sa dalan paingon sa Efrata (o Betlehem).”"
+                    android:textColor="@color/black"
+                android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="8 Sa pagkakita ni Jacob sa mga anak ni Jose, nangutana siya, “Kinsa man kining mga bataa?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="9 Mitubag si Jose, “Kini ang mga anak nga gihatag sa Dios kanako dinhi sa Ehipto.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10 Miingon si Jacob, “Dad-a sila diri duol kanako kay panalanginan ko sila.” Nagkahalap na ang mga mata ni Jacob kay tigulang na man siya ug dili na kaayo siya makakita. Gidala ni Jose ang mga bata ngadto kaniya ug gigakos ug gihagkan niya sila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="11 Miingon si Jacob kang Jose, “Wala ako magtuo nga makita ko pa ikaw apan gitugotan ako sa Dios nga makita ko ikaw lakip ang imong mga anak.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="12 Unya gikuha ni Jose ang mga bata gikan sa mga tuhod ni Jacob ug mihapa siya sa atubangan sa iyang amahan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="13 Gikuptan ni Jose ang duha ka bata, si Efraim sa tuong kamot aron adto siya dapit sa wala ni Jacob ug si Manases sa walang kamot aron adto siya dapit sa tuo ni Jacob ug iyang gidala sila ngadto kang Jacob."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="14 Apan gikuros ni Jacob ang iyang mga kamot; gitapion niya ang iyang tuong kamot sa ulo ni Efraim nga maoy manghod ug ang wala sa ulo ni Manases nga maoy magulang."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="15 Unya gipanalanginan niya si Jose nga nag-ingon: “Panalanginan unta kining mga bataa sa Dios nga gialagaran sa akong mga katigulangan nga si Abraham ug si Isaac."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="16 Ang anghel nga nagluwas kanako sa tanang katalagman manalangin unta kanila. Ang akong ngalan ug ang ngalan sa akong mga katigulangan nga si Abraham ug si Isaac magpabilin untang buhi pinaagi kanila. Mosanay unta sila ug mahimong dakong nasod.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="17 Sa pagtan-aw ni Jose nga ang tuong kamot sa iyang amahan didto itapion sa ulo ni Efraim, wala niya kini ikahimuot. Busa gibalhin niya ang kamot sa iyang amahan ngadto sa ulo ni Manases."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="18 Miingon siya sa iyang amahan, “Amahan ko, dili kana mao. Si Manases maoy magulang; itapion ang imong tuong kamot sa iyang ulo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="19 Apan midumili ang iyang amahan ug miingon, “Anak, nahibalo ako. Ang mga kaliwat ni Manases modaghan usab. Apan ang iyang manghod mahimong mas gamhanan kay kaniya ug mahimong gamhanan ang iyang mga kaliwat.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="20 Busa niadtong adlawa gipanalanginan niya sila: “Ang mga Israelita maghangyo sa Dios nga panalanginan niya ang uban sama sa iyang pagpanalangin kaninyo. Moingon sila, ‘Panalanginan unta kamo sa Dios sama sa iyang pagpanalangin kang Efraim ug kang Manases.’”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="21 Niining paagiha gipalabi ni Jacob si Efraim kay kang Manases."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="22 Unya miingon si Jacob kang Jose, “Hapit na ako mamatay apan ubanan kamo sa Dios ug dad-on kamo niya balik sa yuta sa inyong katigulangan. Ihatag ko kanimo, dili sa imong mga igsoon, ang Siquem nga mao ang labing maayong yuta nga nailog ko sa mga Amorihanon pinaagi sa akong espada ug pana.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

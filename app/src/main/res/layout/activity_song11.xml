@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SIMBAHON TA SI CRISTO "
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Kamong malipayon ug maminatud-on, Duol na, duol na sa Betlehem; Duol Kaniya, Hari S'yang langitnon."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -65,6 +70,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Simbahon ta si Cristo, Simbahon ta si Cristo, Simbahon ta si Cristo, Ang Ginoo."/>
 
                 <TextView
@@ -83,6 +90,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Kamong manulonda nagamalipayon, Magsinggit, mag-awit kamong tanan; Sa Dios himaya, sa kinahitas-an."/>
 
                 <TextView
@@ -101,6 +110,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Ikaw nga dalay'gon ug mahimayaon, Kanimo mag-awit kami Jesus; Nakita namo ang buhi nga Pulong."/>
 
             </LinearLayout>

@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SI JESU-CRISTO NAGSANGPIT KANUNAY"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Si Jesu-Cristo nagsangpit kanunay, Sa pulong maluloy-on; Sa pultahan sa imong kasing-kasing, Nagahulat S'ya karon."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Duol karon, O, pamatia Siya! Sa kalumo si Jesus nagasangpit, Duol Kanako karon."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +89,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Dili na maglangan-langan kanunay, Sa pagdawat Kaniya; S'ya makaluwas sa way katapusan, Tingog N'ya pamatii."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kahibulongan ang gugmang gisaad, Alang kanatong tanan; Bisan kita dagkung makasasala, Pasayloon ta Niya"
                     android:textAlignment="center"
                     android:textSize="22dp"/>

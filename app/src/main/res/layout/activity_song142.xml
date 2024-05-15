@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="KANIMO, O JESUS MITOO KO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"

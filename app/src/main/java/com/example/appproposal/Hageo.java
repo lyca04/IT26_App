@@ -31,11 +31,11 @@ public class Hageo extends AppCompatActivity implements View.OnClickListener{
         int viewId = view.getId();
 
         if (viewId == R.id.hag1){
-            i = new Intent(this, Sof1.class);
+            i = new Intent(this, Hag1.class);
             startActivity(i);
         }
         if (viewId == R.id.hag2){
-            i = new Intent(this, Sof2.class);
+            i = new Intent(this, Hag2.class);
             startActivity(i);
         }
     }

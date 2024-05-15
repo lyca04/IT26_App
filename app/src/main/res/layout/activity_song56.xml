@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SALIGING DUGO NI JESUS"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Buot ka bang maluwas sa sala? Gamhanang dugo N.ya ni Jesus; Buot bang magmadaugon ikawi Saliging dugo-ni Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="May kahibulongan nga gahum, Sa dugo ni Jesus; May kahibulongan nga gahum, Sa bililhon Niya nga dugo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +89,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa pagpangandak napun-an ka ba? Gamhanang dugo N'ya ni Jesus; Duol ikaw sa Kalbaryo karon, Saliging dugo ni Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Buot ka bang mahinloan karon Gamhanang dugo N'ya ni Jesus; Tanang lama sa sala hugasan, Saliging dugo ni Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -117,6 +129,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Buot ka bang mag-alagad sa Dios? Gamhanang dugo N'ya ni Jesus; Daygon mo ba sa kanunay Siya: Saliging dugo ni Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />

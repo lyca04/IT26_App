@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="IYA AKO NI JESUS"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Si Jesus nahigugma kanako, Gikan Kaniya way makaagaw; Ang kinabuhi gihatag N'ya, lya na ko karon."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Iya ako ni Jesus, Ug ako si Jesus; Di kay sa katuigan lang, Sa kahangturan man."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ako naglunang sa kasalanan, Si Jesus nagdala'g kaluwasan; Sa kaulawan gibangon ko, Iya na ko karon."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kalipay mibaha sa kalag ko, Giluwas ko N'ya sa kaulipnan; Iyang dugo maoy nagtubos, Iya na ko karon."
                     android:textAlignment="center"
                     android:textSize="22dp" />

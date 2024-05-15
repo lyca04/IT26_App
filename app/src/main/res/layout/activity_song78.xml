@@ -25,11 +25,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="DAYGA SI JESUS NGA MANUNUBOS"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +46,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Dayga, Dayga, si Jesus nga Manunubos! lyang gugma pagaawiton ta! Himayaa S'ya, O mga manulonda, Pasidunggi ang ngalan N'yang mahal. S'ya ang atong gamhanang Magbalantay, Sa Iyang bukton gidala kita."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +66,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Daygon ta S'ya sa lyang pagkagamhanan, Daygon S'ya sa way katapusan man."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +86,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Dayga, Dayga, si Jesus nga Manunubos! Kay kanato S'ya nagpakamatay; S'yang bato ug paglaum sa kaluwasan, Pasidunggan ta ang Ginoong Dios. Ang pagdayeg ato karong isinggit, Sa gugma Niya nga dili tupngan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +106,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Dayga, Dayga, si Jesus nga Manunubos! Kalangitan mag-awit man kamo; Gingharian Niya mapinadayonon, S'ya nga Hari purong-purongan ta. S'ya mobalik dinhi sa kalibotan, Kay Siya ang gamhanan sa tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />

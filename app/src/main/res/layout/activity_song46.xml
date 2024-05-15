@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="95dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="TABANGI ΝΑ ΚΑΜΙ"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O Dios nga may gahum, Tabangi na kami sa pagdayeg; Mahimayaon Ka, Ug silimbahon man; Harian Mo kami, O Amahan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O Cristo, Pulong sa Dios, Sa Imong gahum, tagda kami; Panalangini na, Ang gingharian Mo; Kumunsad Ka karon sa lungsod Mo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O Maglilipay Ka, Putling Espiritu gamhi kami; Pun-a sa gugma Mo, Harii, mandoi; Kuyogan Mo kami adlaw'ng tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +108,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O Dios nga Amahan, Anak, Espiritu, dayegon Ka; Pagkahalangdon Mo! Mahimayaon pa! Sa kahangturan man halaran Ka."
                     android:textAlignment="center"
                     android:textSize="22dp" />

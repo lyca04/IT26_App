@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SA MANUNUBOS DUOL KAMO "
-                    android:textSize="26dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa Manunubos duol kamo, Dili maglangan, duola S'ya; S'ya nagpadayon sa pagtawag, Duol, O duol na!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Malipayon ang pagtigum ta, Kon maputli gikan sa sala; Ug didto magatigum kita, Sa lyang puloy-an."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang lyang pulong matngonan mo, Sa malipayon sundon Siya; Imo Siyang pilion karon, Duol, O duol na!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +108,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="'Nia uban kanato karon, Sugo ni Cristo tumanon ta; S'ya nagpadayon sa pagtawag, Duol, O duol na!"
                     android:textAlignment="center"
                     android:textSize="22dp" />

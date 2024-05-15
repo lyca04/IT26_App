@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="PASUDLA SI JESU-CRISTO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kon gibug-atan ikaw sa sala, Si Jesus pasudla sa dughan; Kon buot mong kinabuhing dayon, Tugoti S'ya nga mosulod."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Di ka maglangan-langan, Di mo S'ya pagtalikdan Ablihi nang dughan mo, Pasudla si Jesu-Cristo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +89,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kon sa kaputli ikaw nangandoy, Si Jesus pasudia sa dughan. S'yang magahinlo kanimo karon, Tugoti S'ya nga mosulod."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kon buot mong dag-on ang pagsulay, Si Jesus pasudla sa dughan; Kon may kahaw-ang kanimo karon, Tugoti S'ya nga mosulod."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -117,6 +129,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Kon buot ka nga magmalipayon, Si Jesus pasudla sa dughan; Kon buot ka sa pahulay'ng dayon Tugoti S'ya nga mosulod."
                     android:textAlignment="center"
                     android:textSize="22dp"/>

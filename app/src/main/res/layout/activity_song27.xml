@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="NABANHAW SIYA SA LUBONG "
-                    android:textSize="21dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Gitunod sa lubong,Ang Manluluwas;Ang pagkabanhaw N'ya, Ginahulat."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Nabanhaw S'ya sa lubong, Ang kaaway iyang gidaug! Ang gahum sa kangitngitan gibuntog, Sa mga balaan nagahari S'ya,, Buhi S'ya! Nabanhaw! Daygon nato si Jesus!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -83,6 +91,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ilang gibantayan, Ug gitiman-an; Ang gihigdaan sa Manluluwas."/>
 
                 <TextView
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang lawas ni Jesus, Wala madunot; Nabuksan ang lubong sa Ginoo."
                     android:textAlignment="center"
                     android:textSize="22dp" />

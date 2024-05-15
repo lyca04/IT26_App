@@ -29,7 +29,8 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="BISA'G MAAKO ANG KALIBUTAN"
-                    android:textSize="25dp"/>
+                    android:textSize="28dp"
+                    android:textAlignment="center"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +46,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Bisa'g maako ang kalibutan, Ug dili maako si Jesus; Mahikaplagan ko bang kalipay, Sa kabtangan nga lumalabay? Bisan ang tanan maangkon nako, Ug wala akoy Manluluwas, Ang kasadya nga kalibutanon, Dili makatumbas kang Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +66,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kon ako ang labing adunahan, Ug labing bantugan sa tanan; Apan kon ako walay paglaum, Hain may maayo ning tanan Bisan ang tanan akong maangkon, Ug walay Jesus nga nagtubos; Kinsa man ang ako nga kadangpan, Sa kalag ko nga nabug-atan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,7 +86,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:text="Pagka-laay kon way Manluluwas, Sa mga sala maglunang ko; Ug mangitngit ang akong padulngan, Kon si Jesus akong talikdan; Unsay kapuslanan kon wala S'ya, May paglaum ba unya ako: Mahiaguman kong pagkalaglag, Kay wala maako si Jesus."
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"                    android:text="Pagka-laay kon way Manluluwas, Sa mga sala maglunang ko; Ug mangitngit ang akong padulngan, Kon si Jesus akong talikdan; Unsay kapuslanan kon wala S'ya, May paglaum ba unya ako: Mahiaguman kong pagkalaglag, Kay wala maako si Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 
@@ -99,6 +105,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="O pagkadaku nakong bulahan, Nga naangkon nako si Jesus; Ang sala ko lyang gipasaylo, Ug gipalang kasub-anan ko. Kon si Jesus lang akong maangkon, Wa nay kinahanglan ang uban, Ang mga kinahanglanon nako, 'Naa ang tanan sa Ginoo."
                     android:textAlignment="center"
                     android:textSize="22dp" />

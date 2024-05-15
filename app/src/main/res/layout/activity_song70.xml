@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SUGA SA TANAN SI CRISTO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang kalibutan nangiub sa sala, Suga sa tanan si Cristo! Himaya Niya daw masigang adlaw, Suga sa tanan si Cristo!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Dumuol na kamo sa Suga! Kanhi ako buta man gayud, Makakita na man ko karon; Suga sa tanan si Cristo!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Walay kangitngitan kuyog kang Jesus, Suga sa tanan si Cristo! Mahayag ang dalan kon sundon S'ya, Suga sa tanan si Cristo!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +108,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kamong nabutaan tungod sa sala, Suga sa tanan si Cristo! Dan-agan ikaw kon toohan mo S'ya, Suga sa tanan si Cristo!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -117,6 +128,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Ang adlaw sa langit di na mapuslan, Suga sa tanan si Cristo! Ang Cordero sa Dios mao ang suga, Suga sa tanan si Cristo!"
                     android:textAlignment="center"
                     android:textSize="22dp" />

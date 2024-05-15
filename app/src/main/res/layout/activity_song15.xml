@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="90dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="Saysayi Ko Sa Balita"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Saysayi ko sa Balita mahitungod kang Jesus;
 Sa matahum nga kaagi sa iyang pagkatawo;
 Isaysay ang pagdalayeg sa manulonda niya
@@ -70,6 +76,8 @@ Himaya sa kahitas-an! Panagdait sa tanan!
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Himaya sa kahitas-an! Panagdait sa tanan!."/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -87,6 +95,8 @@ Himaya sa kahitas-an! Panagdait sa tanan!
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Nag-inusara S’ya didto niadtong mingaw’ng dapit,
 Unya Siya ginatintal ug wa gayud padaug.
 Kadtong mga kapaitan nga iyang gisagubang,
@@ -108,6 +118,8 @@ Ang mga pagbiay-biay, saysayi ko ning tanan."/>
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Saysayi ko sa Balita sa kamatayon Niya,
 Sa iya nga pagkabanhaw gikan sa mga patay.
 Ang gugma sa Manluluwas. Putli man ug malumo,
@@ -129,6 +141,9 @@ Isaysay mong gugma Niya, kanako nga naglukat"/>
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Saysayi ko sa Balita
 Mahitungod kang Jesus,
 Sa balita nga bilihon,

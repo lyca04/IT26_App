@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="PAGKATAHUM ISAYSAY"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pagkatahum isaysay sa gugma ni Jesus, Ug sa himaya Niya nga nagmasid lakon; Pagkatahum isaysay, kay nașinati ko, Ang gugma N'ya ni Cristo nga gipangandoy ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pagkatahum isaysay! Maoy akong tinguha, Pagsaysay sa balita, Sa gugma ni Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pagkatahum isaysay sa gugma ni Jesus, Labi pa nga hinandum kay sa bahandi man; Pagkatahum isaysay, kay naluwas ako, Mao kining hinungdan nga ginasaysay ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pagkatahum isaysay sa gugma ni Jesus, Kay ang moduol Niya kalipay maangkon; Pagkatahum isaysay ang kaluwasan N'ya, Kay ang wala masayod angay'ng suginlan ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />

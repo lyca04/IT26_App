@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="MAY ULAN SA PANALANGIN"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="May ulan sa panalangin, Saad kini sa gugma; May takna sa kadagaya, Gikan sa Manluluwas."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang panalangin, Gikinahanglan namo; Dinhi karon O Ginoo, Panalangini kami."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,7 +89,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:text=". May ulan sa panalangin, Nagbisbis sa katamnan; Ang bukid ug kapatagan, lyang gipaulanan"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text=" May ulan sa panalangin, Nagbisbis sa katamnan; Ang bukid ug kapatagan, lyang gipaulanan"
                     android:textAlignment="center"
                     android:textSize="22dp" />
 
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="May ulan sa panalangin, Ipadala na O Dios; Ihatag ang kadagaya, Tumana ang saad Mo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -117,6 +129,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="May ulan sa panalangin, Unta karon moabut; Sa Dios kami nagasugid, Ug kang Jesus nagtawag."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -135,6 +149,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="May ulan sa panalangin, Kon may pagsalig kita; May takna sa kadagaya, Kon ang Dios pagsundon ta."
                     android:textAlignment="center"
                     android:textSize="22dp" />

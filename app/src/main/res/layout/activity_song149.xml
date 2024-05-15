@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="ANG PANAHON SA PAG-AMPO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text=". Ning takna sa pangaliya, Ang pangamuyo may pako; Kanimo ko nagahulat, Panalangini man ako. Sa dagway Mo motutok ko, Mosalig ko sa grasya Mo; Itugyan nako ang tanan, Sa panahon sa pag-ampo."
+                    android:text=" Ning takna sa pangaliya, Ang pangamuyo may pako; Kanimo ko nagahulat, Panalangini man ako. Sa dagway Mo motutok ko, Mosalig ko sa grasya Mo; Itugyan nako ang tanan, Sa panahon sa pag-ampo."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
 

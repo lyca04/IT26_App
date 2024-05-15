@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="100dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="MAANYAG NGA JESUS"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Maanyag nga Jesus, Hari sa tanan Ikaw, Anak sa Dios ug Anak sa Tawo; Halaran, ludhan ka, Ug Pasidunggan pa, Ang bugtong kong kalipay Ka."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang patag matahum, Ug ang kakahoyan man, Sa bulak binakbakan man; Labaw pa si Jesus, Ug may kaputli pa, Ang maylilipay ko Siya."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -83,6 +91,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang adlaw matahum, Ug mga bituon man, Bisan ang bulan nga masulaw; Maanyag pa Siya, Mahimayaon pa, Kay sa tanang binuhat N'ya"/>
 
                 <TextView
@@ -101,6 +111,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Maanyag nga Jesus, Ang Ginoo man Ikaw, Anak sa Dios ug Anak sa Tawo; Himaya ug dungog, Pagtahud, pagdayeg, Sa kahangturan Imo man."/>
 
 

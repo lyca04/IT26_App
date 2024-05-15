@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="ANG MAY GAHUM NGA SI JESUS"
-                    android:textSize="23dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang may gahum nga si Jesus, Simbahon sa tanan; Purong-purongan man Siya, Ginoo sa tanan; Purong-purongan man Siya, Ginoo sa tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kabitoonan nga tanan, Tahuron ninyo S'ya; Ug himayaon ta Siya, Ginoo sa tanan; Purong-purongan man Siya, Ginoo sa tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Makasasalang gilukat, Sa lya nga dugo; Siya ang atong yukboan, Ginoo sa tanan; Purong-purongan man Siya, Ginoo sa tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +108,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang kaliwatan nga tanan, Ning kalibutan ta; Siya halaran sa dungog, Ginoo sa tanan; Purong-purongan man Siya, Ginoo sa tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />

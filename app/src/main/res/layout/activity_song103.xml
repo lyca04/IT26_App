@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textAlignment="center"
                     android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="IYANG GISALIPDAN ANG AKONG KALAG"
-                    android:textSize="23dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O kahibulongang Ginoong Jesus, Kay iyang giluwas ako; Ang akong kalag gisalipdan man N'ya, Nagamalipayon ako."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="lyang gisalipdan ang akong kalag, Wala nay kahadlok ako; Ako gitagoan man sa gugma N'ya, Ug ang salipdanan ko S'ya, Ug ang salipdanan ko S'ya."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +89,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O kahibulongang ginoong Jesus, Gikuha N'yang akong lulan; Sa bukton Niya gibuligan ako, Anaa N'yang akong kusog."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Mga panalangin nga di malitok, Nga akong natagamtaman; Ang akong awiton himaya sa Dios! Dakung Manunubos Siya!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -117,6 +129,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Sa adlaw nga pagalalinon ako, Tagbuon ko S'ya si Jesus; Ang lya nga gugma ug kaluwasan, Kanunay nga isinggit ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />

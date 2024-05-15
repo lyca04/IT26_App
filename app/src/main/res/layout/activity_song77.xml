@@ -25,11 +25,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="NAILA KONG GITUOHAN KO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +46,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Wala ako masayod sa hingpit, Ngano nga gilukat ako; Ni Jesus sa daku nga gugma N'ya, Nga dautan man unta ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +66,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Naila kong gituohan ko, Ako nasayod nga S'ya gamhanan; Magbantay Siya kanako, Hangtud nga mobalik S'ya."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +86,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Wala ako masayod sa hingpit, Sa buhat sa Espiritu; Nga nagabadlong sa sala sa tawo, Ug kang Jesus nagpaila."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +106,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Wala ako masayod sa hingpit, Unsa ang kaugmaon ko; Kon mga adlaw gidag-uman ba, Kon masanag bang dalan ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -117,6 +126,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text=" Wala ako masayod sa hingpit, Kanus-a ang pagbalik N'ya, Sa kahitas-an kon sa yuta man, Magkasugatay ba kami."
                     android:textAlignment="center"
                     android:textSize="22dp" />

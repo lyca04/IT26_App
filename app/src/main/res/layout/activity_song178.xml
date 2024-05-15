@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="O MAO NING HIMAYA KO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text=". Kong mahuman nang mga buhat ko, Ug maabot ko na ang himaya; Ang pakig-uban ko sa Ginoo, Maoy himaya kong dili tupngan."
+                    android:text=" Kong mahuman nang mga buhat ko, Ug maabot ko na ang himaya; Ang pakig-uban ko sa Ginoo, Maoy himaya kong dili tupngan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 

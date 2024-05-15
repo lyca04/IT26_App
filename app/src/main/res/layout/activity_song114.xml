@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textAlignment="center"
                     android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="GINAHALAD MO BA ANG TANAN?"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -128,7 +131,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text=". Di matukib ang gugma g'yud N'ya ni Jesus, Nga kanato gibubo sa Dios; Diha lang kang Jesus makig-ambitay ta, Kon ihalad ang atong tanan."
+                    android:text=" Di matukib ang gugma g'yud N'ya ni Jesus, Nga kanato gibubo sa Dios; Diha lang kang Jesus makig-ambitay ta, Kon ihalad ang atong tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 

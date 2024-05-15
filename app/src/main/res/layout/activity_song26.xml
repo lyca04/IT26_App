@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="NABANHAW ANG MANLULUWAS"
-                    android:textSize="21dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Si Jesus karon nabanhaw, Aleluya! Moingon man ang katawhan, Aleluya! Tingog ipatugbaw ta, Aleluya! Yuta'g langit magaawit, Aleluya!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Buhi S'ya ang atong Hari, Aleluya! Ang lubnganan wa kabuntog, Aleluya! lyang giluwas kita, Aleluya! Kamatayon, O hain ka? Aleluya!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -83,6 +91,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Hingpit na ang kaluwasan, Aleluya! Gidaug na ang kaaway, Aleluya! S'ya mibangon sa lubong, Aleluya! Pagbukas sa kalangitan, Aleluya!"/>
 
                 <TextView
@@ -101,6 +111,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sundon ta ang Magmamando, Aleluya! Ang nabanhawng Manluluwas, Aleluya! Pagbanhawon N'ya kita, Aleluya! Ug mabuhi ta sa dayon, Aleluya!"/>
 
 

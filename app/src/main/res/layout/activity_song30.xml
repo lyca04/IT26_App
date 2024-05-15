@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="100dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="DI BA KAHA KARON?"
-                    android:textSize="21dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Si Jesus moanhi pag-usab,Di ba kaha karon: Moanhi man nga gamhanan S'ya, Di ba kaha karon?Angkonon Niya ang pinili, Tanang tinubos ug balaan; Sa tibuok nga kalibutan, Di ba kaha karon?"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Aleluya! Magmalipayon ko; Aleluya! S'yang koronahan ta; Aleluya! Andam na man ako; Aleluya! Umari ka Jesus"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -83,6 +90,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Mapukan unya si Satanas, Niadtong adlawa; Wa nay panghayhay kon kasubo, Pagbalik ni Jesus; Mabanhaw g'yud ang pinili N'ya, Aron sa pagsugat Kaniya; Kanus-a ba nga S'ya mobalik, Di ba kaha karon?"/>
 
                 <TextView
@@ -99,6 +108,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Makita ba nga matarung ka, Kon 'nia na Siya Dili maglangan ang Ginoo, Mobalik g'yud Siya, Ang mga tagna natuman na, Tumanon Niya ang saad N'ya, Pagbantay kay Siya mobalik, Di ba kaha karon?"
                     android:textAlignment="center"
                     android:textSize="22dp" />

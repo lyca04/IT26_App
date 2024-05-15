@@ -1,9 +1,298 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Zac14">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Zacarias 14"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang Jerusalem ug ang Ubang Nasod"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1  Unya ang adlaw sa Ginoo moabot ug niadtong panahona sakmiton ug bahinbahinon ang inyong kabtangan diha sa inyong atubangan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  Tigumon sa Ginoo ang tanang kanasoran batok sa Jerusalem ug mailog nila kini. Sak-on nila ang inyong kabalayan ug panguhaon nila ang inyong kabtangan ug panglugoson ang mga babaye. Ang katunga sa mga lumolupyo sa Jerusalem ilang pamihagon apan ang uban mahibilin diha sa siyudad."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3  Unya molihok ang Ginoo ug siya maoy makiggubat sa maong mga nasod sama sa iyang gibuhat sa nangaging panahon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="4  Niadto unyang panahona mobarog siya sa Bukid sa mga Olibo nga atbang sa Jerusalem dapit sa sidlakan. Mapikas ang maong bukid gikan sa sidlakan ngadto sa kasadpan ug mahimo ang usa ka dakong walog sa tunga niini. Unya ang pikas mosibog ngadto sa amihanan ug ang pikas ngadto sa habagatan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="5  Unya ang walog sa akong mga bukid maalihan sa ubang mga bukid ug managan kamo sama sa nahitabo sa paglinog sa panahon nga si Uzias maoy naghari sa Juda. Unya moabot si Yahweh nga inyong Dios uban sa tanang mga anghel."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="6  Niadto unyang panahona wala nay tingtugnaw o yelo.14:6 tingtugnaw o yelo: Sa Hebreo dili klaro."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="7  Wala nay bugto ang adlaw (ang Ginoo ray nasayod niini) kay hayag man bisag panahon na unta sa gabii."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="8  Niadto unyang panahona motungha ang mga buhing tubod diha sa Jerusalem. Ang katunga sa tubig modagayday paingon sa Dagat nga Patay ug ang katunga niini ngadto sa Mediteraneo ug magpabilin ang maong tubig sa tibuok tuig."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="9  Ang Ginoo mao nay maghari sa tibuok kalibotan. Niadto unyang panahona ang ngalan ra sa Ginoo maoy pasidunggan ingon nga Ginoo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10  Unya mahimong usa ka dakong patag ang Juda gikan sa Geba hangtod sa Rimon sa habagatan sa Jerusalem. Apan magpabilin ang Jerusalem sa bungtod nga nahimutangan niini gikan sa Ganghaan ni Benjamin hangtod sa Ganghaan sa Eskina ug sukad sa Tore ni Hananel hangtod sa pigsanan sa paras sa hari."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="11  Unya daghan nang mopuyo niini kay mahilayo na man kini sa tunglo ug wala nay magsamok pa sa Jerusalem."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="12  Ug mao kini ang kastigo nga ipahamtang sa Ginoo sa mga nasod nga mangahas sa pagsulong sa Jerusalem: mag-anam ug kadunot ang ilang unod bisag buhi pa sila lakip ang ilang mga mata ug dila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="13  Libogon sila sa Ginoo ug mag-unay sila pagpinatyanay."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="14  Bisan gani ang Juda makig-away didto sa Jerusalem aron pagpanalipod niini. Tigumon unya didto sa Jerusalem ang daghang bahandi sa kanasoran: mga bulawan, plata ug daghan kaayong mga bisti."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="15  Mahiagom usab sa maong kastigo ang mga kabayo, mga mula, mga kamelyo, mga asno ug bisan unsang kahayopan nga anaa sa kampo sa kaaway."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="16  Unya ang tanang wala mangamatay sa kanasoran nga misulong sa Jerusalem moadto sa Jerusalem matag tuig aron pagsimba sa hari nga mao ang Ginoo nga Labing Gamhanan ug aron paghimo sa Kasaulogan sa mga Balongbalong."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="17  Ug kon may panimalay sa kalibotan nga magdumili sa pag-adto sa Jerusalem aron pagsimba sa hari nga mao ang Ginoo nga Labing Gamhanan, dili niya sila hatagag ulan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="18  Ug kon may panimalay sa Ehipto nga dili moadto sa Jerusalem aron paghalad sa ilang kaugalingon ngadto sa Ginoo, mahiagom usab sila sa kastigo nga iyang gipahamtang sa mga nasod nga wala mohimo sa Kasaulogan sa mga Balongbalong."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="19  Managsama ang kastigo nga mahiagoman sa Ehipto ug sa mga nasod nga nagdumili sa paghimo sa maong kasaulogan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="20  Niadtong panahona ipatik diha sa mga kampanilya sa mga kabayo kining mga pulonga: “Gihalad kini ngadto sa Ginoo.” Ang mga kulon diha sa Templo sa Ginoo mahisama ka balaan sa mga panaksan atubangan sa halaran."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="21  Ang tanang kulon sa tibuok Jerusalem ug sa Juda ihalad ngadto sa Ginoo nga Labing Gamhanan aron nga si bisan kinsa kadtong maghalad ug mga hayop, makahimo sa paggamit niini aron lutoan sa unod sa maong halad. Wala na unyay mamaligyag bisan unsa diha sa Templo sa Ginoo nga Labing Gamhanan niadto unyang panahona."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

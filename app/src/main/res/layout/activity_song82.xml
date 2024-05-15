@@ -25,11 +25,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="PAG-AWITON KONG KAAGI"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +46,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pagaawiton kong kaagi, Ni Jesus nga nagtubos; Gitalikdan N'yang himaya, Sa hinungdan man sa krus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +66,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pag-awiton kong kaagi, Ni Jesus nga nagtubos; Duyog sa tanang balaan, Didto sa himaya Niya."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +86,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kanhi ko nahisalaag, Ug hingkit-an ni Jesus; Gigakos ug gipabalik, Sa matul-id dalan N'ya."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +106,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang kangitngit moabut man, Masabog ang kaguol; Dili g'yud ako mahadlok, Kay anaa si Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -117,6 +126,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Nagabantay S'ya kanako, Paglabang ko sa sulog; Ug unya ako mosugat, Sa tanan nga minahal."
                     android:textAlignment="center"
                     android:textSize="22dp" />

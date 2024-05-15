@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="MANLULUWAS KO NAGMANDO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Manluluwas ko nagmando, Unsa pay hangyoon ko? Ako bang duha-duhaan, Ang pagtultol nga dayon? Ang langitnong pakigdait, Ginahuptan ko karon; Kay hingsayran ko sa hingpit, Nga matarung si Jesus. Kay hingsayran ko sa hingpit, Nga matarung si Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Manluluwas ko nagmando, Malipayong dalan ko; Grasya man gihatag Niya, Ug kalan-on sa kalag. Bisan lawas ko maluya, Ug uhawon king kalag; May Bato ko nga nakita, Sa kalipay nagtubod. May Bato ko nga nakita, Sa kalipay nagtubod."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -81,6 +85,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Manluluwas ko nagmando, lyang grasya hingpit man; Iyang gisaad kanako, Puloy-anang matahum. Kong mopanaw ko sa langit, Ngadto sa himaya N'ya; Ug kanunay kong awiton, Ang pagmando ni Jesus. Ug kanunay kong awiton, Ang pagmando ni Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp"/>

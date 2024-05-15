@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SANTO! SANTO! SANTO!"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Santo! Santol Santol Dios nga gamhanan! Maga-awit ang tanan sa kabuntagon pa. Santo! Santo! Santo! Dios nga maluloy-on, Gamhanang Dios, Balaang Trinidad."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,7 +68,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:text=". Santo! Santo! Santo! Dios silimbahon! Sa mga balaan ginasimba man Ikaw. Mga manulonda nagyukbo Kanimo, Dios way sinugdan ug utlanan man."
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text=" Santo! Santo! Santo! Dios silimbahon! Sa mga balaan ginasimba man Ikaw. Mga manulonda nagyukbo Kanimo, Dios way sinugdan ug utlanan man."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 
@@ -81,6 +89,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Santo! Santo! Santo! Sa himaya Nimo, Ang makasasala dili man makakita. Way laing balaan nga ingon Kanimo, Hingpit, maputli, ug may gugma Ka."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Santo! Santo! Santo! Dios nga gamhanan! Nagadayeg ang tanang mga binuhat Mo. Santo! Santo! Santo! Dios nga maluloy-on, Gamhanang Dios, Balaang Trinidad."
                     android:textAlignment="center"
                     android:textSize="22dp" />

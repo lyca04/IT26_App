@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="110dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="GABIING BALAAN"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Gabing balaan, Mahilum ang tanan Sa natawo ang Ginoo, Gibantayan sa inahan Niva, Sa langitnong kalinaw, 'Niang Mesias karon"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -65,6 +70,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Gabiing balaan, Makita'ng Himaya; Ang panon nga langitnon. Nagaawit Aleluya! 'Nia na'ng Manluluwas, 'Nia ang Cristo karon"/>
 
                 <TextView
@@ -83,6 +90,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Gabiing balaan, Ang Diosnong kahayag Midan-ag sa yuta man, Aron maluwas ang tanan, 'Nia na ang Ginoo, 'Nia si Jesus karon."/>
 
                 <TextView
@@ -101,6 +110,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Gabiing balaan, Madulom ang tanan, Gawas lang sa pasungan, Ang kahayag sa kalibutan; Dalayegon ang Dios, 'Niang Mesias karon"/>
 
             </LinearLayout>

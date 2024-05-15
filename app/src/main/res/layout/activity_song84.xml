@@ -25,11 +25,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="ANG GINOO GIKINAHANGLAN KO"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang Ginoo gikinahanglan ko, Wa nay higala sama kang Jesus; Kon wa may pagtagad N'ya ang uban, Ako nagkinahanglan man Niya ni Jesus."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang Ginoong Jesu-Cristo, S'yang gikinahanglan ko; Adlaw-adlaw nga tanan, Bisan pa kon may dag-um, Ako nga gikinahanglan ang Ginoo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang Ginoo gikinahanglan ko, Higala S'ya ug magmamando pa; Bisan pagabiay-biayon ko, Siya gayud ang akong sundon sa kanunay."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang Ginoo gikinahanglan ko, Sa matag gutlo adlaw nga tanan; Wa nay lain nga sama kang Jesus, Kanunay'ng maluluy-on S'ya ug kasaligan."
                     android:textAlignment="center"
                     android:textSize="22dp" />

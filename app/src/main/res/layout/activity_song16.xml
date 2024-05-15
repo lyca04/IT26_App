@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="NANAUG SIYA GIKAN SA KALANGITAN"
-                    android:textSize="23dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Nanaug S'ya gikan sa kalangitan, Sa kaluwasan nagtanyag Siya;
 Nagpakatawo S'ya dinhi ni'ining yuta, Aron mahimong Manluluwas ko."
                     android:textAlignment="center"
@@ -66,6 +72,8 @@ Nagpakatawo S'ya dinhi ni'ining yuta, Aron mahimong Manluluwas ko."
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa lyang gugma ug kamatayon, May pagpasaylo sa akong sala; Ug Siya nabanhaw ngadto sa dayon, Unya may adlawn'ng mobalik Siya."/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -83,6 +91,8 @@ Nagpakatawo S'ya dinhi ni'ining yuta, Aron mahimong Manluluwas ko."
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="S'ya gidala sa bungtod sa Kalbaryp, Ila didto S'yang gilansang sa Krus; Gibiaybiay
  S' ya ug gisalikway, Gipas-an Niya ang akong sala.
 "/>
@@ -103,6 +113,8 @@ Nagpakatawo S'ya dinhi ni'ining yuta, Aron mahimong Manluluwas ko."
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="S'ya gilubong man didto sa tanaman, Ug sa lubnganan mipahuway S'ya: Sa manulonda Siya gibantayan, Kay Manluluwas S'ya sa tanan."/>
 
                 <TextView
@@ -121,6 +133,8 @@ Nagpakatawo S'ya dinhi ni'ining yuta, Aron mahimong Manluluwas ko."
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="May adlaw ta nga wala S'ya kapugngi, Sa kamatayon nga gibuntog N'ya, Nabanhaw S'ya nga nagmadinaugon, Mikayab S'ya sa kahimayaan."/>
 
                 <TextView
@@ -139,6 +153,9 @@ Nagpakatawo S'ya dinhi ni'ining yuta, Aron mahimong Manluluwas ko."
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Pagapatunggon unya ang trumpeta, Sa adlaw man nga mobalik Siya; Unya Makita S'yang mahimayaon, Si Jesu-Cristo, Manluluwas ko."/>
 
 

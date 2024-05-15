@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="MAY GAHUM GIHAPON SI JESUS"
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="May gahum gihapon si Jesus, Kay giula Niya ang dugo; Bisan kinsa nga mosalig N'ya, May kapasayloan man. May gahum gihapon si Jesus, Kay ang dugo giula N'ya; Bisan kinsa nga mosalig N'ya, May kapasayloan man."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang gilansang man nga kawatan, Nahinloan N'ya ni Jesus; Sama man ako sa kawatan, Nahinloan sa sala. Ang gilansang man nga kawatan, Nahinloan N'ya ni Jesus; Sama man ako sa kawatan, Nahinloan sa sala."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,7 +89,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:text=". May ulan sa panalangin, Nagbisbis sa katamnan; Ang bukid ug kapatagan, lyang gipaulanan. Ang bililhon Niya nga dugo, Dili g'yud mawad-an sa gahum; Unya ang tanan nga linukat, Sa himaya moabut. Ang bililhon Niya nga dugo, Di g'yud mawad-an sa gahum; Unya ang tanan nga linukat,Sa himaya moabot."
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="May ulan sa panalangin, Nagbisbis sa katamnan; Ang bukid ug kapatagan, lyang gipaulanan. Ang bililhon Niya nga dugo, Dili g'yud mawad-an sa gahum; Unya ang tanan nga linukat, Sa himaya moabut. Ang bililhon Niya nga dugo, Di g'yud mawad-an sa gahum; Unya ang tanan nga linukat,Sa himaya moabot."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 
@@ -99,7 +109,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:text=". Sa dihang ako mingtoo na, Kang Jesus nga Manluluwas ko; Ang matinubsanong gugma N'ya, Mao ang giawit ko. Sa dihang ako mingtoo na, Kang Jesus, Manluluwas ko; Ang matinubsanong gugma N'ya, Mao ang giawit ko."
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text=" Sa dihang ako mingtoo na, Kang Jesus nga Manluluwas ko; Ang matinubsanong gugma N'ya, Mao ang giawit ko. Sa dihang ako mingtoo na, Kang Jesus, Manluluwas ko; Ang matinubsanong gugma N'ya, Mao ang giawit ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 

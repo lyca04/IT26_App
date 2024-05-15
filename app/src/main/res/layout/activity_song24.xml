@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="100dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="GABII SA GETSEMANE"
-                    android:textSize="21dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Gabii sa Getsemane, Mangiob kabitoonan; Didto ang Manluluwas ta, Nag-inusara, nag-ampo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="S'ya gitalikdan sa tanan, Sa kaguol nakigdumog; Bisang tinun-an N'yang mahal, Mibiya Kaniya usab."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -83,6 +91,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Tungod sa katapusan ta, Siya naghilak sa dugo; Apan sa lyang pag-antus, Wala pasagdi S'ya sa Dios."/>
 
                 <TextView
@@ -101,6 +111,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Gikan sa kahitas-an man, Dihay langitnon nga awit; Honing wa mabati sa tawo, Nga nagalipay kang Jesus."/>
 
 

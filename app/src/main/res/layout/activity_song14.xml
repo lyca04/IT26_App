@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="Magmalipayon Ang Tanan"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Magmalipayon ang tanan, Natawo na si Jesus!
 Andamon ang tanan karon Sa pagdawat sa Hari ta.
 Mag-awit ang tanan, yuta ug langit man!
@@ -69,6 +75,8 @@ Mag-awit, mag-awit ang tanan.
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Magmalipayon ang tanan, Maghari si Jesus’
 Ang mga bukid ug walog, Ang kapatagan ingon man,
 Sa awit mosabat, sa awit mosabat.
@@ -90,6 +98,8 @@ Sa awit, sa awit mosabat.
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Ang kasubo ug ang sala, Langkaton ni Jesus’
 Ang mga panalangin Nya Modangat sa tanang dapit,
 Paglaglag sa sala, paglaglag sa sala
@@ -112,6 +122,9 @@ Isangyaw, isangyaw sa tanan.
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Sa gugma magahari Sya Sa nasud nga tanan!
 Ang katarungan nga hingpit, Ang gugma ug kalooy Nya,
 Isangyaw sa tanan, isangyaw sa tanan,

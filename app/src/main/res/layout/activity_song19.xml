@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="KONG PALANDUNGON KO ANG KRUS "
-                    android:textSize="22dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Kong palandungon ko ang krus, Nga gikamatyan ni Jesus; Kawang ang mga buhat ko, Magmapainubsanon lang."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -65,6 +70,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Akong ihalad ang tanan, Sa imong tiilan Jesus; Di mąkatumbas sa krus Mo, Ang makahaylo nga butang." />
 
                 <TextView
@@ -83,6 +90,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Sa ulo ug tiilan N' ya Gugma'g kasakit nakit-an; Nahupong ang mga tunok, Nahimo nga korona N'ya"/>
 
                 <TextView
@@ -101,6 +110,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:text="Kon mga yuta ako man, Di igo nga igahatag; Sa gugma nga maputli N' ya Nga nagahagit ning kalag. AMEN."/>
 
 

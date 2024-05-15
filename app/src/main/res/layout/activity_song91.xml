@@ -29,7 +29,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="SI JESUS ANG BAHANDI ΚΟ "
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text=" Si Jesus ang bahandi ko, Kalipay ug tanan, Mapukan ko kon wa Siya, Kay ako S'yang kusog; Kon magmasulob-on ako, Kaniya modangop ako, Sa kasubo 'naa Siya; Abyan ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text=". Si Jesus ang bahandi ko, Higala ko Siya, Ang mga panalangin N'ya, Gihatag kanako, Gipadala N'ya ang ulan, Bisan man ang alanihon, Adlaw'g ulan, alanihon; Abyan ko."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -81,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Si Jesus ang bahandi ko, Ginoo ko Siya, S'ya nagmatinud-anon man, Di ko S'ya ilimod; Kaniya mosunod ako, Ug lya kong pagbantayan, Adlaw'ng tanan sundon ko S'ya; Abyan ko."
                     android:textAlignment="center"
                     android:textSize="22dp"/>

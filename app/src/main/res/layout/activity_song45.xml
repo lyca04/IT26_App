@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="PAGKAMAHIMAYAON MO "
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Pagkamahimayaon mo, O dayong siyudad sa Dios; S'yang maglungtad sa kanunay, Nagpuyo kanimo man. Ang patukoranan nimo, Maoy lig-on nga Bato; Gisalipdan ka kanunay, Magamadaugon ka."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Ang tubod sa buhing tubig, Nag-agas sa way huntng; Ang mga kaanakan mo, Dili pag-uhawon man. Wa gayuy usa'ng mapakyas, Nga anaa kang Jesus; Ang magapadayong grasya, Ginahatag man sa Dios."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Haduol ang Dios kanunay, Sa tanan nga lya man; Ingon man sa kaniadto, Mahimayaon Siya; Pagkamahimayaon mo, O dayong syudad sa Dios; S'yang maglungtad sa kanunay, Nagpuyo man kanimo."
                     android:textAlignment="center"
                     android:textSize="22dp" />

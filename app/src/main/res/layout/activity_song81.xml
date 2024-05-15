@@ -25,11 +25,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="BUNGTOD SA KALBARYO "
-                    android:textSize="25dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kanhi nagapos ako sa sala, Apan naluwas na; Ug gisagakay ako ni Jesus; Didto sa Kalbaryo."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +65,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O, mahimayaon, Bungtod sa Kalbaryo; Kay didto giluwas ako ni Jesus, Sa kasalanan ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Wa na kanako'y gahum ang sala, Tungod sa Ginoo; Ug may kalipay nga nagabaha, Dinhi ning dughan ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Duol kamong mga gibug-atan, Duol lang kang Jesus; S'ya sa Kalbaryo nagpakamatay, Pagluwas sa tanan."
                     android:textAlignment="center"
                     android:textSize="22dp" />

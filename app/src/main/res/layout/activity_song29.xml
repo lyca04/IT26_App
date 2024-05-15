@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="ANDAM BA TA PAGSUGAT KANIYA?"
-                    android:textSize="21dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa takna nga si Jesus mobalik, Sa adlaw o gabii; Makita ba kitang matinumanon, Andam, alang Kaniya?"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Andam ba ta pagsugat Kaniya, Didto sa kalangitan? Nagatukaw ba kita kanunay, Andam alang sa pagbalik Niya"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -83,6 +90,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kon moabot S'ya sa kaadlawon, Sa tinagsa tawgon ta; Kon sutaon N'ya ang atong buhat, Mahimuot ba ang Dios?"/>
 
                 <TextView
@@ -99,8 +108,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa gipiyal ni Jesus kanato,
-
 Maampingon ba kita? Kon di gayud ta masalawayon, Masadyang pahulay ta.
 "
                     android:textAlignment="center"
@@ -120,6 +130,9 @@ Maampingon ba kita? Kon di gayud ta masalawayon, Masadyang pahulay ta.
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Magmalipayon kadtong magtukaw, Alang sa himaya N'ya; Kon S'ya motungha dinhi sa yuta, Managbantay ba kita"
                     android:textAlignment="center"
                     android:textSize="22dp" />

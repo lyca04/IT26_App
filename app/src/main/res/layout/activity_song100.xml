@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textAlignment="center"
                     android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="BUOT KONG ISUGID SI JESUS KANINYO "
-                    android:textSize="22dp"/>
+                    android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Buot kong isugid si Jesus kaninyo, S'yang labing matuod nga higala ko; Giusab Niya ang akong kinabuhi, Buhat nga dili mahimo sa uban."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Wa nay laing nabalaka kanako, Way laing maluloy-ong abyan; Kasalanan ko gayud lyang gikuha, Kadaku sa gugma N'ya!"
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +89,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Nagalunang man ako sa kasalanan, Sa hingkaplagan ako sa Ginoo; lya nga gisapnay ko sa lyang bukton, Ug sa dalan N'ya gitultolan ako."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -99,6 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Adlaw-adlaw nagpasalig S'ya kanako, Nga sa gugma N'ya ako magatubo; Di matugkad nganong giluwas ko Niya, Hangtud nga ang nawong N'ya makita ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />

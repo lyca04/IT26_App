@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="100dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="O ESPIRITU SA DIOS"
-                    android:textSize="25dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="O Espiritu sa Dios, akong magmamando Ka, Niining pagpanaw ko, ang kamot ko kuptan Mo; Magmalipayon ako, kong madunggang pulong Mo, Magpapanaw sunda ko; sa himaya dad-on ka."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Abyan ug kauban ko, sa tanan nga panahon, Gikan sa kangitngitan di Mo ako pasagdan; Sa unos nga naghuros nawad-an ko'g paglaum, Pulong Mo, Pagsunda ko, sa himaya dad-on Ka."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,6 +88,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kong kabudlay tapus na, kang Jesus magpaabut, Maga-ampo man ako, sa langit tultolan Mo; Ug kong mamatay ako, si Jesus paglaum ko, Pulong Mo, Pagsunda ko, sa himaya dad-on ka."
                     android:textAlignment="center"
                     android:textSize="22dp" />

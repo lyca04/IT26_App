@@ -25,11 +25,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="DUNAY HALANGDONG KALUMO "
-                    android:textSize="21dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +49,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Dunay halangdong kalumo, Sa Manluluwas ta; Masidlak ang korona N'ya Sa grasya dato S'ya, Sa grasya dato S'ya."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +69,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Nakita N'yang napukan ko, Ako gibangon N'ya; Kanako gipas-an N'yang krus, Ug ang kasakit ko, Ug ang kasakit ko."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -83,6 +91,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Kalipay, kinabuhi ko, Siya ang tuburan; Ang kamatayon gidaug, Lubnganan man usab, Lubnganan man usab."/>
 
                 <TextView
@@ -101,6 +111,8 @@
                     android:textAlignment="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa gugma N'ya nadawat ko, Ang panalangin N'ya; Kon daghan pa ang lawas ko, Ihalad kong tanan, Ihalad kong tahan."/>
 
 

@@ -25,11 +25,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
                     android:text="GRASYA NGA KAHIBULONGAN "
-                    android:textSize="23dp" />
+                    android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Grasya nga kahibulongan, Katam-is Mo gayud! Buta man ko ug hinukman, Nakit-an, naluwas."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -63,6 +68,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Nagtudlo man ang grasya Mo, Kanako pagtahud; Bililhon man king grasya Mo; Nga akong nadawat."
                     android:textAlignment="center"
                     android:textSize="22dp" />
@@ -81,7 +88,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:text=". Sa daghan nga kalisdanan, Nga giagian ko, Giagak ko sa grasya Mo; Ug gitultolan pa."
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text=" Sa daghan nga kalisdanan, Nga giagian ko, Giagak ko sa grasya Mo; Ug gitultolan pa."
                     android:textAlignment="center"
                     android:textSize="22dp" />
 
@@ -99,6 +108,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:text="Sa langit may puloy-an ta, Magdan-ag ta didto; Walay hunong, magpadayon, Ang atong pagdayeg."
                     android:textAlignment="center"
                     android:textSize="22dp" />
