@@ -1,18 +1,24 @@
 package com.example.appproposal;
 
-public class NoteModel {
+import java.io.Serializable;
+
+public class NoteModel implements Serializable {
     private String id;
     private String verse;
-    private String note;
+    private String opinion;
+    private String application;
+    private String prayer;
 
     public NoteModel() {
         // Default constructor required for Firebase
     }
 
-    public NoteModel(String id, String verse, String note) {
+    public NoteModel(String id, String verse, String opinion, String application, String prayer) {
         this.id = id;
         this.verse = verse;
-        this.note = note;
+        this.opinion = opinion;
+        this.application = application;
+        this.prayer = prayer;
     }
 
     // Getters and setters for NoteModel fields
@@ -32,11 +38,27 @@ public class NoteModel {
         this.verse = verse;
     }
 
-    public String getNote() {
-        return note;
+    public String getOpinion() {
+        return opinion;
     }
 
-    public void setNote(String note) {
-        this.note = note;
+    public void setOpinion(String opinion) {
+        this.opinion = opinion;
+    }
+
+    public String getApplication() {
+        return application;
+    }
+
+    public void setApplication(String application) {
+        this.application = application;
+    }
+
+    public String getPrayer() {
+        return prayer;
+    }
+
+    public void setPrayer(String prayer) {
+        this.prayer = prayer;
     }
 }

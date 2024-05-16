@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.AppProposal">
         <activity
+            android:name=".EditNoteActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.AppProposal" />
+        <activity
             android:name=".Adddevotion"
             android:exported="false" />
         <activity

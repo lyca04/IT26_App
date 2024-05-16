@@ -9,35 +9,49 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class Addnote extends AppCompatActivity {
+public class EditNoteActivity extends AppCompatActivity {
 
     private EditText verseEditText, opinionEditText, applicationEditText, prayerEditText;
-    private Button saveNoteButton;
+    private Button updateNoteButton;
     private DatabaseReference databaseReference;
+    private String noteId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_addnote);
+        setContentView(R.layout.activity_edit_note);
 
         verseEditText = findViewById(R.id.verseEditText);
         opinionEditText = findViewById(R.id.opinionEditText);
         applicationEditText = findViewById(R.id.applicationEditText);
         prayerEditText = findViewById(R.id.prayerEditText);
-        saveNoteButton = findViewById(R.id.saveNoteButton);
+        updateNoteButton = findViewById(R.id.updateNoteButton);
 
         // Initialize Firebase database reference
         databaseReference = FirebaseDatabase.getInstance().getReference("note");
 
-        saveNoteButton.setOnClickListener(new View.OnClickListener() {
+        // Get data from intent
+        noteId = getIntent().getStringExtra("noteId");
+        String verse = getIntent().getStringExtra("verse");
+        String opinion = getIntent().getStringExtra("opinion");
+        String application = getIntent().getStringExtra("application");
+        String prayer = getIntent().getStringExtra("prayer");
+
+        // Set the data to EditTexts
+        verseEditText.setText(verse);
+        opinionEditText.setText(opinion);
+        applicationEditText.setText(application);
+        prayerEditText.setText(prayer);
+
+        updateNoteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                saveNote();
+                updateNote();
             }
         });
     }
 
-    private void saveNote() {
+    private void updateNote() {
         String verse = verseEditText.getText().toString().trim();
         String opinion = opinionEditText.getText().toString().trim();
         String application = applicationEditText.getText().toString().trim();
@@ -48,11 +62,10 @@ public class Addnote extends AppCompatActivity {
             return;
         }
 
-        String noteId = databaseReference.push().getKey();
         NoteModel noteModel = new NoteModel(noteId, verse, opinion, application, prayer);
         databaseReference.child(noteId).setValue(noteModel);
 
-        Toast.makeText(this, "Note saved", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Note updated", Toast.LENGTH_SHORT).show();
         finish();
     }
 }
