@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.AppProposal">
         <activity
+            android:name=".Adddevotion"
+            android:exported="false" />
+        <activity
+            android:name=".Addnote"
+            android:exported="false" />
+        <activity
             android:name=".About"
             android:exported="false" />
         <activity
