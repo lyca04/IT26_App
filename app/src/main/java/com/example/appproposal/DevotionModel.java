@@ -1,17 +1,17 @@
 package com.example.appproposal;
 
-public class NoteModel {
+public class DevotionModel {
     private String id;
     private String verse;
     private String opinion;
     private String application;
     private String prayer;
 
-    public NoteModel() {
+    public DevotionModel() {
         // Default constructor required for Firebase
     }
 
-    public NoteModel(String id, String verse, String opinion, String application, String prayer) {
+    public DevotionModel(String id, String verse, String opinion, String application, String prayer) {
         this.id = id;
         this.verse = verse;
         this.opinion = opinion;

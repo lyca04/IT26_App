@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="60dp"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    android:padding="16dp"
     tools:context=".Terms">
 
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="60dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:text="Devotion"
-        android:background="#ADD8E6" />
-
     <ImageView
-
+        android:id="@+id/add_devotion"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginLeft="330dp"
-        android:src="@drawable/plus"/>
+        android:layout_gravity="end"
+        android:src="@drawable/plus" />
 
-</FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/noteTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/amarante"
+            android:textAlignment="textStart"
+            android:text="No notes available"
+            android:visibility="gone" />
+    </ScrollView>
+
+
+</LinearLayout>

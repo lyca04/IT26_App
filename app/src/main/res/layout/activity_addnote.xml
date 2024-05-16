@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F7EBAC"
     android:padding="16dp"
     tools:context=".Addnote">
 
@@ -12,6 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Scripture"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bigshot_one"
+        android:textSize="25dp"
         android:alpha="0.7"
         android:textStyle="bold"
         android:layout_marginBottom="8dp" />
@@ -22,11 +26,16 @@
         android:layout_height="60dp"
         android:inputType="text"
         android:hint="Enter verse"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/amarante"
         android:layout_marginBottom="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/bigshot_one"
+        android:textSize="25dp"
         android:text="Opinion"
         android:alpha="0.7"
         android:textStyle="bold"
@@ -36,13 +45,18 @@
         android:id="@+id/opinionEditText"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginRight="20dp"
         android:inputType="text"
+        android:textColor="@color/black"
         android:hint="Enter opinion"
+        android:fontFamily="@font/amarante"
         android:layout_marginBottom="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/bigshot_one"
+        android:textSize="25dp"
         android:text="Application"
         android:alpha="0.7"
         android:textStyle="bold"
@@ -53,12 +67,17 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:inputType="text"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/amarante"
         android:hint="Enter application"
         android:layout_marginBottom="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/bigshot_one"
+        android:textSize="25dp"
         android:text="Prayer"
         android:alpha="0.7"
         android:textStyle="bold"
@@ -69,13 +88,19 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:inputType="text"
+        android:layout_marginRight="20dp"
         android:hint="Enter prayer"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amarante"
         android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/saveNoteButton"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
+        android:backgroundTint="#D9A04C"
         android:text="Save Note"
         android:layout_marginTop="16dp" />
 
