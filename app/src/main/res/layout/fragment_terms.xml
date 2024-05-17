@@ -1,38 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
-    android:layout_marginBottom="60dp"
+    android:layout_marginBottom="70dp"
     android:orientation="vertical"
     android:background="#ADD8E6"
     android:padding="16dp"
     tools:context=".Terms">
 
+    <TextView
+        android:id="@+id/Soap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="40dp"
+        android:fontFamily="@font/bigshot_one"
+        android:textAlignment="textStart"
+        android:text="S.O.A.P"/>
+
     <ImageView
         android:id="@+id/add_devotion"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_gravity="end"
+        android:layout_marginLeft="300dp"
         android:src="@drawable/plus" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
 
         <TextView
             android:id="@+id/noteTextView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="30dp"
             android:textSize="20dp"
-            android:fontFamily="@font/amarante"
+            android:fontFamily="@font/amethysta"
             android:textAlignment="textStart"
             android:text="No notes available"
             android:visibility="gone" />
     </ScrollView>
 
 
-</LinearLayout>
+</RelativeLayout>
