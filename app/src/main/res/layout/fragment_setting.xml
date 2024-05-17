@@ -91,7 +91,7 @@
             android:src="@drawable/baseline_badge_24"/>
 
         <TextView
-            android:id="@+id/about"
+            android:id="@+id/openabout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/badge"

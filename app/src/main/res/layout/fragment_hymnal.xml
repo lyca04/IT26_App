@@ -9,17 +9,30 @@
 
    <androidx.appcompat.widget.SearchView
        android:id="@+id/search_view"
-       android:layout_width="match_parent"
+       android:layout_width="280dp"
        android:layout_height="wrap_content"
-       android:layout_margin="8dp"
+       android:layout_margin="10dp"
+       android:hint="Search"
        android:background="@drawable/search_view_bg"
        app:queryHint="Search here"/>
+
+   <Button
+       android:id="@+id/reset"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/search_view"
+       android:hint="RESET"
+       android:textSize="15dp"
+       android:layout_marginRight="10dp"
+       android:textColorHint="@color/black"
+       android:layout_marginTop="10dp"
+       android:backgroundTint="#D9A04C"/>
 
    <ListView
        android:id="@+id/listview"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:layout_marginTop="40dp"
+       android:layout_marginTop="60dp"
        android:padding="5dp"/>
 
 </RelativeLayout>

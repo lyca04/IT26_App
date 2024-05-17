@@ -16,6 +16,7 @@
     import android.view.ViewGroup;
     import android.widget.AdapterView;
     import android.widget.ArrayAdapter;
+    import android.widget.Button;
     import android.widget.ListView;
     import androidx.appcompat.widget.SearchView;
 
@@ -34,6 +35,8 @@
     public class HymnalFragment extends Fragment {
         private ArrayAdapter<String> arrayAdapter;
         private List<String> list;
+        private List<String> originalList;
+        private List<String> filteredList; // Store the filtered list of items
         private SearchView searchView;
 
 
@@ -86,6 +89,7 @@
 
             ListView listView = rootView.findViewById(R.id.listview);
             searchView = rootView.findViewById(R.id.search_view);
+            Button resetButton = rootView.findViewById(R.id.reset);
 
             list = new ArrayList<>();
             list.add("1. GINOO KOTA NGA LIG-ON"); list.add("2. ANG ATONG DIOS MAKAGAGAHUM ");
@@ -215,16 +219,22 @@
 
             Log.d("ListContents", list.toString());
 
+            originalList = new ArrayList<>(list);
+
             arrayAdapter = new ArrayAdapter(getActivity().getApplicationContext(), android.R.layout.simple_list_item_1, list);
             listView.setAdapter(arrayAdapter);
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Class<?> targetActivity = null;
+                    String selectedItem = (String) parent.getItemAtPosition(position);
 
-                    // I-determine ang target activity base sa position
-                    switch(position) {
+                    // Find the corresponding item position in the original list
+                    int originalPosition = list.indexOf(selectedItem);
+
+                    // Determine the target activity based on the original position
+                    Class<?> targetActivity = null;
+                    switch (originalPosition) {
                         case 0:
                             targetActivity = Song1Activity.class;
                             break;
@@ -992,6 +1002,20 @@
                     return true;
                 }
             });
+
+            // Add reset button functionality
+            resetButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Clear the search view text
+                    searchView.setQuery("", false);
+                    // Reset the list to show all items
+                    arrayAdapter.clear();
+                    arrayAdapter.addAll(originalList);
+                    arrayAdapter.notifyDataSetChanged();
+                }
+            });
+
 
             return rootView;
         }
