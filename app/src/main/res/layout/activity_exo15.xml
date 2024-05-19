@@ -1,9 +1,458 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Exo15">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Exodo 15"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Awit Daplin sa Dagat"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1  Unya si Moises ug ang mga Israelita nag-awit niining mosunod pahinungod sa Ginoo:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="2  Ang Ginoo mao ang lig-on kong tigpanalipod; siya maoy nagluwas kanako. Siya ang akong Dios ug daygon ko siya, ang Dios sa akong katigulangan, ug mag-awit ako mahitungod sa iyang pagkagamhanan."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="3  Manggugubat ang Ginoo; Yahweh ang iyang ngalan."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="4  Gipanglimbuwad niya ngadto sa dagat ang mga karwahi ug mga sundalo sa hari sa Ehipto ug nangalumos sa Dagat nga Pula ang labing maayo niyang mga opisyal."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="5  Natabonan sila sa lalom nga dagat ug naunlod sa kahiladman sama sa bato."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="6  Gamhanan, O Ginoo, ang tuo mong kamot; gidugmok niini ang mga kaaway."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="7  Sa imong harianong kadaogan, gipuo mo ang imong kaaway; ang imong kasuko nagdilaab ug misunog kanila sama sa dagami."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="8  Mihuyop ka ug napundok ang tubig, ug mibarog kini nga tul-id sama sa paril; nabantok ang kinahiladman sa dagat."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="9  Miingon ang kaaway, ‘Gukdon ko sila ug dakpon; bahinbahinon ko ang ilang kabtangan ug kuhaon ko ang tanan kong higustohan. Laniton ko ang akong espada ug kuhaon ko ang tanan nga anaa kanila.’"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="10  Apan sa usa mo ka paghuyop gitabonan sila sa dagat; naunlod sila sama sa tingga ngadto sa kahiladman sa tubig."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="11  “Ginoo, kinsa sa mga diosdios ang sama kanimo? Kinsay sama kanimo nga kahibulongan ug balaan? Kinsay sama kanimo nga nagbuhat ug mga milagro ug gikahadlokan tungod sa imong gamhanang mga buhat?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="12  Giisa mo ang tuo mong kamot ug gilamoy sa yuta ang among kaaway."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="13  Tungod sa imong makanunayong gugma, gidala mo ang mga tawo nga imong giluwas; pinaagi sa kusog mo, gitultolan mo sila sa balaan mong puloy-anan."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="14  Nakabati ang kanasoran ug mikurog sila sa kahadlok; ang mga Filistihanon nangalisang."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="15  Ang mga kadagkoan sa Edomea nangalisang; ang gamhanang mga tawo sa Moab nangurog; mitalaw ang tanang nagpuyo sa Canaan."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="16  Naghari kanila ang kahadlok ug kalisang. Tungod sa imong pagkagamhanan, wala silay timik nga nagbarog sama sa usa ka bato, hangtod milabay ang katawhan mo, Ginoo, hangtod milabay ang imong kaugalingong katawhan nga imong gipagawas gikan sa kaulipnan."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="17  Dad-on mo sila, Ginoo, ug ipahimutang sa imong bukid, ang dapit nga gihimo mong puloy-anan, ang Templo nga ikaw mismo ang nagbuhat."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="18  Ang Ginoo maghari hangtod sa kahangtoran."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang Awit ni Miriam"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="19  Sa dihang ang mga kabayo sa hari sa Ehipto uban sa mga karwahi ug sa mga nagdala niini milatas sa dagat, gipatikyop sa Ginoo ang dagat balik sa naandan ug mitabon kini kanila. Apan ang mga Israelita milatas agi sa namala nga dagat."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="20  Unya si Miriam, ang babayeng propeta nga igsoon ni Aaron mikuhag tamborin ug nanggula ang tanang mga babaye ug misunod kaniya. Gitugtog nila ang mga tamborin ug nanayaw sila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="21  Si Miriam miawit alang kanila, “Awiti ang Ginoo kay mahimayaon ang iyang kadaogan; gilimbuwad niya sa dagat ang mga kabayo ug ang mga nagkabayo niini.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang Pait nga Tubig"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="22  Gikan sa Dagat nga Pula gidala ni Moises ang mga Israelita ngadto sa kamingawan sa Shur. Sulod sa tulo ka adlaw wala silay nakit-ang tubig."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="23  Unya miabot sila sa Mara apan wala sila makainom sa tubig didto kay pait man kini kaayo, busa ginganlan kinig Mara."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="24  Nagmulo ang katawhan kang Moises ug nangutana, “Unsa may atong imnon?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="25  Unya nag-ampo si Moises sa Ginoo ug gipakitaan siya sa Ginoo ug kahoy. Giitsa ni Moises ang kahoy ngadto sa tubig ug nawala ang kapait sa tubig. Didto gihatagan sila sa Ginoo ug kasugoan ug didto gisulayan usab niya sila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="26  Miingon siya, “Kon maminaw gayod kamo kanako, ang Ginoo nga inyong Dios ug buhaton ninyo ang giisip ko nga matarong ug magtamod kamo sa akong mga sugo ug magtuman sa tanan kong ipabuhat kaninyo, dili ko kamo kastigohon sa bisan unsang sakit nga akong gipahamtang sa mga Ehiptohanon. Ako, ang Ginoo, maoy nag-ayo kaninyo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="27  Unya miabot sila sa Elim diin may 12 ka tubod ug 70 ka kahoyng palmera. Nagkampo sila didto daplin sa tubig."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

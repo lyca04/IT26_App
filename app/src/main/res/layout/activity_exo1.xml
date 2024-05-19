@@ -1,9 +1,338 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Exo1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Exodo 1"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Gidaugdaog ang mga Israelita didto sa Ehipto"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1  Mao kini ang mga anak nga lalaki ni Jacob nga mikuyog kaniya uban ang ilang tagsatagsa ka banay sa pag-adto niya sa Ehipto:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="2  Si Ruben, si Simeon, si Levi, si Juda,"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="3  si Isacar, si Zabulon, si Benjamin,"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="4  si Dan, si Neftali, si Gad ug si Aser."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="5  Ang tanang kaliwat ni Jacob miabot ug 70. Niadtong higayona didto na si Jose sa Ehipto."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="6  Unya namatay si Jose ug ang iyang mga igsoon ingon man ang tanan niadtong kaliwatana."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="7 Apan midaghan ug nahimong gamhanan ang mga Israelita ug nalukop ang Ehipto kanila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="8  Unya may bag-ong hari sa Ehipto nga wala masayod bahin kang Jose."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="9  Miingon siya sa iyang katawhan, 'Tan-awa ninyo, daghan na kaayo ang mga Israelita ug mas gamhanan na sila kay kanato.'"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="10  Busa mangita kitag paagi aron dili magkadugang ang ilang gidaghanon kay tingali unyag sa panahon sa gubat motipon sila sa atong mga kaaway ug makigbatok kanato ug unya mobiya sa nasod.'"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="11  Busa gibutangan nilag mga kapatas ang mga Israelita aron pugson sila sa pagpatrabaho sa bug-at nga buluhaton. Gitukod sa mga Israelita alang sa hari sa Ehipto ang mga siyudad sa Pitom ug Rameses aron himoong tigomanan sa mga pagkaon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="12  Apan sa diha nga mas gidaugdaog sila sa mga Ehiptohanon, misamot hinuog kadaghan ang mga Israelita ug nakatag pag-ayo sa nasod, maoy hinungdan nga nangahadlok ang mga Ehiptohanon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="13  Busa giulipon sila sa mga Ehiptohanon ug gipaantos sa bug-at nga trabaho."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="14  Gilisudlisod sila pag-ayo sa ilang pagpuyo pinaagi sa paghimo kanila nga tighimog tisa ug gipatrabaho sila sa tanang matang sa lisod nga trabaho sa walay kukaluoy."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="15  Unya giingnan sa hari sa Ehipto si Sipra ug si Pua, ang mga mananabang nga Hebreo,"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="16  'Inigpanabang ninyo sa mga babayeng Hebreo, patya ang bata kon lalaki apan kon babaye, tugoti nga mabuhi.'"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="17  Apan nahadlok sa Dios ang mga mananabang busa wala nila tumana ang gisugo sa hari. Gitugotan hinuon nila nga mabuhi ang mga batang lalaki."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="18  Unya gitawag sila sa hari ug giingnan, 'Ngano nga gitugotan man ninyo nga mabuhi ang mga batang lalaki?'"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="19  Mitubag sila, “Ang mga babayeng Hebreo dili sama sa mga babayeng Ehiptohanon. Dali kaayo silang manganak ug mahimugso na ang bata sa dili pa kami moabot.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=" 20-21  Tungod kay ang mga mananabang mahadlokon man sa Dios, ang Dios naluoy kanila ug gihatagan silag mga anak. Ug ang mga Israelita nagpadayon sa pagsanay ug nahimong gamhanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="22  Unya gisugo sa hari sa Ehipto ang tanan niyang katawhan: “Itambog ngadto sa Suba sa Nilo ang tanang batang lalaki nga Hebreo nga bag-ong natawo apan ayaw iapil ang mga batang babaye.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

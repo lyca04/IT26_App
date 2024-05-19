@@ -1,9 +1,352 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Exo3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Exodo 3"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Si Moises Gitawag sa Dios"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1  Si Moises maoy nag-atiman sa mga karnero ug mga kanding sa iyang ugangan nga si Jetro, ang pari sa Midian. Usa niana ka adlaw gidala niya ang mga hayop latas sa dapit nga awaaw ug miabot siya sa Sinai, ang balaang bukid."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="2  Didto mipakita kaniya ang anghel sa Ginoo ingon nga usa ka nagdilaab nga kalayo taliwala sa sampinit. Nakita ni Moises nga nagdilaab ang sampinit apan wala kini masunog."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="3  Miingon siya, “Nganong wala man masunog ang sampinit? Akong duolon ug susihon kining katingalahang butang.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="4  Sa pagkakita sa Ginoo nga miduol siya, miingon ang Ginoo gikan sa taliwala sa kasampinitan, “Moises, Moises!” Mitubag siya, “Unsa man?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="5  Ang Dios miingon, “Diha ka lang kutob. Ayaw na pagduol. Huboa ang imong sandalyas kay balaan ang dapit nga imong gitindogan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="6  Ako ang Dios sa imong amahan. Ako ang Dios ni Abraham, ni Isaac ug ni Jacob.” Busa gitabonan ni Moises ang iyang nawong kay nahadlok man siya nga motan-aw sa Dios."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="7  Unya miingon ang Ginoo, “Nakita ko ang kalisdanan sa akong katawhan didto sa Ehipto ug nadungog ko ang ilang pagpakitabang tungod sa pagdaugdaog kanila sa ilang mga agalon. Nasayod ako sa ilang mga pag-antos."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="8  Busa mikunsad ako aron pagluwas kanila gikan sa mga Ehiptohanon ug pagdala kanila ngadto sa usa ka maayo ug dakong yuta. Tabunok kining yutaa ug gipuy-an karon sa mga Canaanhon, mga Hitihanon, mga Amorihanon, mga Perisihanon, mga Hibihanon ug sa mga Jebusihanon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="9  Nadungog ko ang mga hilak sa mga Israelita ug nakita ko kon giunsa sila pagdaugdaog sa mga Ehiptohanon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="10  Karon ipadala ko ikaw ngadto sa hari sa Ehipto aron pagkuha sa akong katawhan gikan sa Ehipto.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="11  Apan miingon si Moises, “Kinsa man ako nga imong paadtoon sa hari sa Ehipto aron pagkuha sa mga Israelita?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="12  Ang Dios mitubag, “Ubanan ko ikaw ug inigdala mo na sa katawhan gawas sa Ehipto, simbahon ako ninyo dinhi niining bukira. Mao kini ang magmatuod nga gipadala ko ikaw.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="13  Si Moises miingon sa Dios, “Kon adtoon ko ang mga Israelita ug ingnan sila, ‘Ang Dios sa inyong mga katigulangan nagpadala kanako nganhi kaninyo,’ ug mangutana sila kanako, ‘Unsa may iyang ngalan?’ Unsa may akong itubag kanila?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="14  Ang Dios miingon kang Moises, “Ako mao Ako. Ingna ang mga Israelita: ‘Siya nga nagpaila sa iyang kaugalingon nga Ako Mao maoy nagpadala kanako nganhi kaninyo.’”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="15  Unya miingon usab ang Dios, “Kini ang isulti sa mga Israelita, ‘Si Yahweh, ang Dios sa inyong mga katigulangan, ang Dios ni Abraham, ni Isaac ug ni Jacob nagpadala kanako nganhi kaninyo.’ Mao kini ang akong ngalan hangtod sa kahangtoran. Kini ang ingalan kanako sa umaabot nga mga kaliwatan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="16  Adtoa ug pundoka ang mga kadagkoan sa Israel ug sultihi sila nga ako, si Yahweh, ang Dios sa inyong katigulangan, ang Dios ni Abraham, ni Isaac ug ni Jacob, mipakita kanimo nga nag-ingon, ‘Nasayod ako ug nakita ko ang gibuhat sa mga Ehiptohanon kaninyo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="17  Nakahukom ako pagkuha kaninyo gikan sa Ehipto diin gidaugdaog kamo aron dad-on ngadto sa maayo ug tabunok nga yuta sa mga Canaanhon, mga Hitihanon, mga Amorihanon, mga Perisihanon, mga Hibihanon ug sa mga Jebusihanon.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="18  Ang akong katawhan mamati kanimo. Unya uban sa mga kadagkoan sa Israel pangadto kamo sa hari sa Ehipto ug ingna siya, ‘Si Yahweh, ang Dios sa mga Hebreo, nagpakita kanamo. Busa tugoti intawon kami pag-adto sa diserto sa gilay-on nga tulo ka adlaw nga pagbaktas kay maghalad kami ngadto sa Ginoo nga among Dios.’"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="19  Hinuon, nasayod ako nga dili gayod kamo tugotan sa hari sa Ehipto gawas kon pugson siya."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="20  Apan gamiton ko ang akong gahom ug silotan ko ang Ehipto pinaagi sa mga kahibulongang butang nga buhaton ko didto. Pagkatapos niana, tugotan kamo niya sa paggawas.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="21  “Himoon ko nga tahoron kamo sa mga Ehiptohanon aron inigbiya ninyo, dili kamo manglakaw nga walay dala.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="22  Ang matag babayeng Israelita mangayo ug mga bisti ug mga alahas nga bulawan ug plata gikan sa ilang silingang Ehiptohanon ug kang bisan kinsang babayeng Ehiptohanon nga nagpuyo sa maong balay. Isul-ob kini ninyo sa inyong mga anak ug niining paagiha makuha ninyo ang bahandi sa mga Ehiptohanon.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

@@ -1,9 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Exo11">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Exodo 11"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Gipahibalo ni Moises ang Kamatayon sa mga Kamagulangang Anak"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1  Ang Ginoo miingon kang Moises, “Ipahamtang ko sa hari sa Ehipto ug sa mga Ehiptohanon ang usa pa ka silot. Human niini, iya kamong palakton. Gani, abugon pa gayod niya kamong tanan sa hingpit."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="2  Sultihi ang mga Israelita sa pagpangayo ug mga alahas nga plata ug bulawan sa ilang mga silingan.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="3  Gihimo sa Ginoo nga ang mga Israelita tahoron sa mga Ehiptohanon. Si Moises giila sa mga opisyal sa hari ug sa mga Ehiptohanon nga usa ka mahinungdanong tawo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="4  Ug unya miingon si Moises sa hari, “Mao kini ang giingon ni Yahweh: ‘Sa mga tungang gabii mosuroy ako sa Ehipto "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="5  ug mangamatay ang tanang kamagulangang anak dinhi sa Ehipto gikan sa kamagulangang anak sa hari nga maoy manununod sa trono ngadto sa kamagulangang anak sa babayeng ulipon nga naggaling ug trigo. Ang panganay sa tanang baka mamatay usab."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="6  May pagminatay sa tibuok Ehipto nga wala pa mahitabo sukad-masukad ug wala na gayoy mahitabo nga sama niini."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="7  Apan sa mga Israelita walay bisan iro nga mousig sa mga tawo o sa mga mananap. Pinaagi niini masayran mo nga pinasahi gayod ang pagtagad ni Yahweh sa mga Israelita kay sa mga Ehiptohanon.’ "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="8  Ug kining tanan mong mga opisyal moduol kanako ug moyukbo sa akong atubangan nga mag-ingon, ‘Pahawa dinhi uban sa imong katawhan!’ Human niini, molakaw ako.” Unya masuk-anon kaayong mibiya si Moises sa hari."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="9  Ang Ginoo miingon kang Moises, “Dili mamati kanimo ang hari aron himoon ko ang dugang nga mga milagro diha sa yuta sa Ehipto.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="10  Gihimo ni Moises ug ni Aaron kining tanang milagro sa atubangan sa hari apan gipagahi gihapon ni Yahweh ang kasingkasing sa hari ug wala niya tugoti ang mga Israelita pagbiya sa iyang nasod."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

@@ -1,9 +1,459 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Exo10">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Exodo 10"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang mga Dulon"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1  Ang Ginoo miingon kang Moises, “Adtoa ang hari sa Ehipto. Gipagahi ko ang kasingkasing niya ug sa iyang mga opisyal aron akong ikapakita kanila kining akong mga milagro "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  aron kasultihan ninyo ang inyong mga anak ug mga apo kon giunsa ko paghimong kataw-anan ang mga Ehiptohanon ug unsang mga milagro ang akong gibuhat kanila. Kamong tanan masayod unya nga ako mao ang Ginoo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="3  Busa si Moises ug si Aaron miadto sa hari ug miingon kaniya, “Mao kini ang gisulti sa Ginoo, ang Dios sa mga Hebreo, ‘Hangtod kanus-a ka magdumili sa pagtahod kanako? Palakta na ang akong katawhan aron mag-alagad sila kanako."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="4  Kon magpadayon ka pagdumili sa pagpalakat sa akong katawhan, ugma ipadala ko sa imong nasod ang mga dulon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="5  Tungod sa kabaga nila, motabon sila sa yuta ug dili na kini makita. Kan-on nila ang tanan nga wala madaot sa ulan nga yelo lakip ang tanan ninyong kakahoyan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="6  Mapuno nila ang imong mga palasyo ug ang mga balay sa imong mga opisyal ug ang mga balay sa tanan mong katawhan. Wala pay ingon niini ka makalilisang nga nakita sa inyong mga katigulangan sukad sila mahianhi niining yutaa.’” Unya mibiya si Moises sa hari."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="7  Ang mga opisyal sa hari miingon kaniya, “Hangtod kanus-a magsamok kining tawhana kanato? Palakta na ang mga Israelita aron mag-alagad sila sa Ginoo nga ilang Dios. Wala mo ba makita nga nalaglag na ang Ehipto?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="8  Busa gidala pagbalik si Moises ug si Aaron ngadto sa hari ug siya miingon kanila, “Makalakaw na kamo aron pagsimba sa Ginoo nga inyong Dios. Apan kinsa may manglakaw?”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="9  Si Moises mitubag, “Kaming tanan maoy manglakaw lakip ang among kabataan ug mga tigulang, mga karnero ug mga kanding ug mga baka kay maghimo kamig kasaulogan alang sa Ginoo.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="10  Ang hari miingon kanila, “Hinaot nga si Yahweh mag-uban kaninyo apan dili ko gayod ipadala kaninyo ang mga babaye ug mga kabataan. Klaro kaayo nga naglaraw kamog daotan. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="11  Dili kana mahimo! Ang mga lalaki lay makalakaw aron pag-alagad sa Ginoo kon mao man kana ang inyong gusto.” Ug gipapahawa sila sa atubangan sa hari."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="12  Ang Ginoo miingon kang Moises, “Iisa ang imong kamot aron modagsang ang mga dulon ug kan-on nila ang tanan nga wala madaot sa yelo sa tibuok Ehipto.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="13  Busa giisa ni Moises ang iyang sungkod ug gipahuros sa Ginoo ang hangin sa silangan sa yuta sa Ehipto nianang adlawa ug nianang gabhiona. Pagkabuntag gidala sa hangin ang mga dulon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="14  Mihugpa sila sa tibuok nasod. Mao kadtoy labing dakong panon sa mga dulon nga ilang nakita sukad masukad ug wala nay sama niadto. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="15  Mitabon sila sa tibuok Ehipto hangtod nga naitom ang yuta. Gikaon sa mga dulon ang tanang mga tanom ug mga bunga sa kahoy nga wala madaot sa yelo. Wala gayoy nahibilin sa mga lunhaw nga dahon sa tibuok Ehipto."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="16  Unya gipatawag pagdali sa hari si Moises ug si Aaron ug giingnan niya, “Nakasala ako sa Ginoo nga inyong Dios ug kaninyo usab. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="17  Busa pasayloa intawon ako niining higayona ug pag-ampo kamo sa Ginoo nga inyong Dios nga kuhaon niya kanako kining makalilisang nga silot.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="18  Unya si Moises mibiya sa hari ug nag-ampo siya sa Ginoo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="19  Ug giilisan sa Ginoo ang hangin sa silangan ug kusog nga hangin gikan sa kasadpan ug gipadpad ang mga dulon ngadto sa Dagat nga Pula. Wala gayoy nahibilin bisag usa ka dulon sa tibuok Ehipto."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="20  Apan gipagahi gihapon sa Ginoo ang kasingkasing sa hari ug wala niya palakta ang mga Israelita."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang Kangitngit"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="21  Ang  Ginoo miingon kang Moises, “Iisa ang imong kamot ngadto sa langit aron maputos sa kangitngit ang tibuok Ehipto, usa ka kangitngit nga daw mahikap tungod sa kabaga niini.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="22  Busa giisa ni Moises ang iyang kamot ug naputos sa bagang kangitngit ang tibuok Ehipto sulod sa tulo ka adlaw."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="23  Wala magkinit-anay ang mga Ehiptohanon ug walay migula sa ilang mga balay sulod sa tulo ka adlaw. Apan hayag didto sa dapit nga gipuy-an sa mga Israelita."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="24  Gipatawag sa hari si Moises ug giingnan niya, “Makalakaw na kamo aron pag-alagad sa Ginoo. Makauban kaninyo ang mga babaye ug mga bata. Ang inyo lamang mga karnero, mga kanding ug mga baka maoy ibilin dinhi.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="25  Si Moises mitubag, “Kon mao kana, kamoy maghatag kanamo sa mga mananap nga among ihalad sa Ginoo nga among Dios. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="26  Kinahanglan dad-on namo ang tanan namong mga hayop kay magpili kami sa among ihalad sa pagsimba namo sa Ginoo nga among Dios. Sa pagkakaron wala kami masayod unsay among ihalad. Masayod ra kami inig-abot namo didto.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="27  Gipagahi gihapon sa Ginoo ang kasingkasing sa hari ug wala niya sila palakta. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="28  Giingnan niya si Moises, “Pahawa dinhi sa akong atubangan ug ayaw na gayod pakita kanako pag-usab kay kon makita ko ikaw pag-usab, ipapatay ko ikaw.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="29  Si Moises mitubag, “Matuman ang imong pagbuot. Dili na gayod ako makigkita kanimo pag-usab.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
