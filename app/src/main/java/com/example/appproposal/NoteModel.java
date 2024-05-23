@@ -2,21 +2,19 @@ package com.example.appproposal;
 
 public class NoteModel {
     private String id;
-    private String verse;
-    private String opinion;
-    private String application;
-    private String prayer;
+    private String date;
+    private String title;
+    private String context;
 
     public NoteModel() {
         // Default constructor required for Firebase
     }
 
-    public NoteModel(String id, String verse, String opinion, String application, String prayer) {
+    public NoteModel(String id, String date, String title, String context) {
         this.id = id;
-        this.verse = verse;
-        this.opinion = opinion;
-        this.application = application;
-        this.prayer = prayer;
+        this.date = date;
+        this.title = title;
+        this.context = context;
     }
 
     // Getters and setters for NoteModel fields
@@ -28,35 +26,27 @@ public class NoteModel {
         this.id = id;
     }
 
-    public String getVerse() {
-        return verse;
+    public String getDate() {
+        return date;
     }
 
-    public void setVerse(String verse) {
-        this.verse = verse;
+    public void setDate(String date) {
+        this.date = date;
     }
 
-    public String getOpinion() {
-        return opinion;
+    public String getTitle() {
+        return title;
     }
 
-    public void setOpinion(String opinion) {
-        this.opinion = opinion;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getApplication() {
-        return application;
+    public String getContext() {
+        return context;
     }
 
-    public void setApplication(String application) {
-        this.application = application;
-    }
-
-    public String getPrayer() {
-        return prayer;
-    }
-
-    public void setPrayer(String prayer) {
-        this.prayer = prayer;
+    public void setContext(String context) {
+        this.context = context;
     }
 }

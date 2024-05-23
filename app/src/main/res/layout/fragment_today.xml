@@ -2,7 +2,7 @@
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
+    android:id="@+id/homeFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F7EBAC"
@@ -22,10 +22,11 @@
             android:src="@drawable/bg2" />
 
         <TextView
+            android:id="@+id/verse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/bigshot_one"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="70dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
             android:text="'Praise God! God bless him who comes in the name of the Lord!'"
@@ -33,9 +34,10 @@
             android:textColor="@color/black"/>
 
         <TextView
+            android:id="@+id/verse_num"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="215dp"
             android:layout_marginLeft="145dp"
             android:fontFamily="@font/bigshot_one"
             android:text="Mark 11:9b"
@@ -55,6 +57,7 @@
             android:textColor="@color/black" />
 
         <TextView
+            android:id="@+id/pray1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="15dp"
@@ -68,6 +71,7 @@
             android:justificationMode="inter_word"/>
 
         <TextView
+            android:id="@+id/pray2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="15dp"
@@ -81,6 +85,7 @@
             android:justificationMode="inter_word"/>
 
         <TextView
+            android:id="@+id/pray3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="15dp"

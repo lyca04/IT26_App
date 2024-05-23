@@ -3,11 +3,17 @@ package com.example.appproposal;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,8 +27,8 @@ import com.google.firebase.database.ValueEventListener;
  */
 public class About extends Fragment {
 
-    private ImageView addnote;
-    private TextView noteTextView;
+    private ImageView note;
+    private LinearLayout notesContainer;
     private DatabaseReference databaseReference;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -70,8 +76,9 @@ public class About extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_about, container, false);
-        noteTextView = view.findViewById(R.id.noteTextView);
-        addnote = view.findViewById(R.id.addnote);
+
+        notesContainer = view.findViewById(R.id.notesContainer);
+        note = view.findViewById(R.id.note);
 
         // Initialize Firebase database reference
         databaseReference = FirebaseDatabase.getInstance().getReference("note");
@@ -80,34 +87,67 @@ public class About extends Fragment {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                StringBuilder notesBuilder = new StringBuilder();
+                notesContainer.removeAllViews(); // Clear previous views
                 for (DataSnapshot noteSnapshot : dataSnapshot.getChildren()) {
                     NoteModel note = noteSnapshot.getValue(NoteModel.class);
                     if (note != null) {
-                        notesBuilder.append("Scripture: ").append(note.getVerse()).append("\n")
-                                .append("Opinion: ").append(note.getOpinion()).append("\n")
-                                .append("Application: ").append(note.getApplication()).append("\n")
-                                .append("Prayer: ").append(note.getPrayer()).append("\n\n");
+                        addNoteView(note);
                     }
                 }
-                noteTextView.setText(notesBuilder.toString());
-                noteTextView.setVisibility(View.VISIBLE);
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 // Handle possible errors
+                Toast.makeText(getActivity(), "Database Error: " + databaseError.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
 
-        addnote.setOnClickListener(new View.OnClickListener() {
+        note.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d("AboutFragment", "Note ImageView clicked!");
                 Intent intent = new Intent(getActivity(), Addnote.class);
                 startActivity(intent);
             }
         });
 
         return view;
+    }
+
+    private void addNoteView(NoteModel note) {
+        View noteView = getLayoutInflater().inflate(R.layout.note_item, null);
+
+        TextView dateTextView = noteView.findViewById(R.id.dateTextView);
+        TextView titleTextView = noteView.findViewById(R.id.titleTextView);
+        TextView contextTextView = noteView.findViewById(R.id.contextTextView);
+        Button updateButton = noteView.findViewById(R.id.updateButton);
+        Button deleteButton = noteView.findViewById(R.id.deleteButton);
+
+        dateTextView.setText("Date: " + note.getDate());
+        titleTextView.setText("Title: " + note.getTitle());
+        contextTextView.setText("Context: " + note.getContext());
+
+        updateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Addnote.class);
+                intent.putExtra("noteId", note.getId());
+                intent.putExtra("date", note.getDate());
+                intent.putExtra("title", note.getTitle());
+                intent.putExtra("context", note.getContext());
+                startActivity(intent);
+            }
+        });
+
+        deleteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                databaseReference.child(note.getId()).removeValue();
+                Toast.makeText(getActivity(), "Note deleted", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        notesContainer.addView(noteView);
     }
 }

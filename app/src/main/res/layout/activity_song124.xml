@@ -32,7 +32,7 @@
 
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
-                    android:text="JESUS, NAHIGUGMA KANIMO ΑΚΟ"
+                    android:text="JESUS, NAHIGUGMA KANIMO AKO"
                     android:textSize="30dp"/>
 
                 <TextView

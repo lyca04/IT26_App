@@ -6,31 +6,55 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/verseTextView"
+        android:id="@+id/dateTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Verse"
-        android:textStyle="bold"
-        android:layout_marginBottom="4dp" />
+        android:textSize="20dp"
+        android:fontFamily="@font/amethysta"
+        android:text="Date: " />
 
     <TextView
-        android:id="@+id/opinionTextView"
+        android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Opinion"
-        android:layout_marginBottom="4dp" />
+        android:textSize="20dp"
+        android:fontFamily="@font/amethysta"
+        android:text="Title: " />
 
     <TextView
-        android:id="@+id/applicationTextView"
+        android:id="@+id/contextTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Application"
-        android:layout_marginBottom="4dp" />
+        android:textSize="20dp"
+        android:fontFamily="@font/amethysta"
+        android:text="Context: " />
 
-    <TextView
-        android:id="@+id/prayerTextView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Prayer" />
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
 
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#D9A04C"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#D94C4C"
+            android:padding="8dp" />
+    </LinearLayout>
 </LinearLayout>

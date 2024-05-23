@@ -95,7 +95,7 @@ public class HymnalFragment extends Fragment {
         list.add("1. GINOO KOTA NGA LIG-ON"); list.add("2. ANG ATONG DIOS MAKAGAGAHUM ");
         list.add("3. MATINUMANON KA"); list.add("4. ANG DIOS MAN MAGABANTAY");
         list.add("5. ANG LANGITNON DAPIT GIBIYAAN MO"); list.add("6. ANG YUTA MAY KATAHUM");
-        list.add("7. O DIOS, ANG MAGTATAMBANG KA"); list.add("8. ANG DYUTAYNG LUNGSOD SA BELEN ");
+        list.add("7. O DIOS, ANG MAGTATABANG KA"); list.add("8. ANG DYUTAYNG LUNGSOD SA BELEN ");
         list.add("9. PAMATIA BALITA"); list.add("10. KANILA NGA NAGABANTAY");
         list.add("11. SIMBAHON TA SI CRISTO "); list.add("12. GABIING BALAAN");
         list.add("13. JESUS KATAM-IS MO GAYUD"); list.add("14. MAGMALIPAYON ANG TANAN");
@@ -107,7 +107,7 @@ public class HymnalFragment extends Fragment {
         list.add("25. DUNAY HALANGDONG KALUMO"); list.add("26. NABANHAW ANG MANLULUWAS ");
         list.add("27. NABANHAW SIYA SA LUBONG"); list.add("28. MADUGAY PA BA GINOO ");
         list.add("29. ANDAM BA TA PAGSUGAT KANIYA?"); list.add("30. DI BA KAHA KARON?");
-        list.add("31. ESPIRITU SA DIOS"); list.add("32. MAY BULAWANG ADLAW UNYA");
+        list.add("31. ESPIRITU SA DIOS"); list.add("32. MAY BULAWANONG ADLAW UNYA");
         list.add("33. ANG MAGLILIPAY TA"); list.add("34. O ESPIRITU SA DIOS");
         list.add("35. BULAHAN ANG GAPUS"); list.add("36. PUN-A NA AKO, JESUS");
         list.add("37. SANTO! SANTO! SANTO!"); list.add("38. GINAHIGUGMA KO ANG IGLESIA");
@@ -116,7 +116,7 @@ public class HymnalFragment extends Fragment {
         list.add("43. KUYOG CRISTOHANON"); list.add("44. ANG BUGTONG PATUKORANAN ");
         list.add("45. PAGKAMAHIMAYAON MO"); list.add("46. TABANGI NA KAMI");
         list.add("47. ANG MAY GAHUM NGA SI JESUS"); list.add("48. GRAYSA NGA KAHIBULONGAN");
-        list.add("49. ANG MAY GAHUM NGA SI JESUS"); list.add("50. TIPKANG TINAPAY SA KINABUHI");
+        list.add("49. PABILIN KA, JESUS"); list.add("50. TIPKANG TINAPAY SA KINABUHI");
         list.add("51. PAGDAYEG"); list.add("52. SA MANUNUBOS DUOL KAMO");
         list.add("53. NIINI NGA KAHIMTANG "); list.add("54. SA PAGPAMANAGBANAG");
         list.add("55. NAHINLOAN KA BA?"); list.add("56. SALIGING DUGO NI JESUS");
@@ -139,7 +139,7 @@ public class HymnalFragment extends Fragment {
         list.add("89. IYA AKO NI JESUS"); list.add("90. KAY NAAKO NA SI JESUS");
         list.add("91. SI JESUS ANG BAHANDI KO"); list.add("92. GUGMA’G KALUOY NI JESUS");
         list.add("93. PAGKATAHUM ISAYSAY"); list.add("94. ANG GUGMA SA MANLULUWAS");
-        list.add("95. SI CRISTO MAG ANG BATO"); list.add("96. ANG KINABUHI KO MATAG GUTLO");
+        list.add("95. SI CRISTO MAO ANG BATO"); list.add("96. ANG KINABUHI KO MATAG GUTLO");
         list.add("97. NGALAN NI JESUS DAWATA"); list.add("98. BISA’G MAAKO ANG KALIBUTAN");
         list.add("99. SI JESUS SALIGAN KO"); list.add("100. BUOT KONG ISUGID SI JESUS KANINYO");
         list.add("101. SA BAGYO SALIPDANAN SIYA"); list.add("102. MANLULUWAS KO NAGMANDO");
@@ -163,10 +163,10 @@ public class HymnalFragment extends Fragment {
         list.add("137. SI CRISTO ALAGARON KO"); list.add("138. ANG BATUGANG MANANAMBAL");
         list.add("139. ANG PAGTUGYAN"); list.add("140. SI CRISTO BA LANG MAGPAS-AN");
         list.add("141. TIMONI AKO JESUS"); list.add("142. KANIMO, O JESUS MITOO KO");
-        list.add("143. SULTIHAN MOA KO,O DIOS"); list.add("144. DUNGAGI,O JESUS,ANG GUGMA KO");
+        list.add("143. SULTIHAN MO AKO,O DIOS"); list.add("144. DUNGAGI,O JESUS,ANG GUGMA KO");
         list.add("145. O KAHIBULONGAN KONG GINOO"); list.add("146. O JESUS AKO NAGSAAD");
         list.add("147. KON AKO TINTALON"); list.add("148. ANG GINANGANDOY SA KALAG");
-        list.add("149. ANG PANAHON SA PAG-AMPO"); list.add("150. DILI MOA KO PASAGDAN ");
+        list.add("149. ANG PANAHON SA PAG-AMPO"); list.add("150. DILI MO AKO PASAGDAN ");
         list.add("151. GIKINAHANGLAN KA"); list.add("152. ANG DIOS NIA SA SIMBAHAN N'YA");
         list.add("153. KANG JESUS LANG MAGTAWAG"); list.add("154. SI JESUS ATONG ABYAN");
         list.add("155. MANDOI ANG,JEHOVAH"); list.add("156. HADUOL,O JESUS");
@@ -183,7 +183,7 @@ public class HymnalFragment extends Fragment {
         list.add("177. O DIOS SA AMONG MGA AMAHAN"); list.add("178. O MAO NING HIMAYA KO");
         list.add("179. GUGMANG PUTLI UG BALAAN"); list.add("180. GINAHIGUGMA AKO NI JESUS");
         list.add("181. UBANAN KO IKAW UNTA"); list.add("182. DIDTO UNYA SA LANGIT");
-        list.add("183. O,NAGAMALIPAYON AKO"); list.add("184. DAGHANNG SAMALAT");
+        list.add("183. O,NAGAMALIPAYON AKO"); list.add("184. DAGHANG SAMALAT");
         list.add("185. DILI KA PABUNTOG SA PAGPANULAY"); list.add("186. MANDOI KAMI JESUS SA GUGMA");
         list.add("187. IHATAG MO SA GINOO"); list.add("188. DAD-ONG BANDILA NI CRISTO");
         list.add("189. MAGKINABUHI AKO KANG JESUS"); list.add("190. KONG MOBALIK NA SI CRISTO");
@@ -197,8 +197,8 @@ public class HymnalFragment extends Fragment {
         list.add("205. SA KALBARYO"); list.add("206. MAY KATUNGDANAN KO");
         list.add("207. DUNA BAY LAWAK SA DUGHAN"); list.add("208. MISAKAT NA ANG SINIPIT KO");
         list.add("209. WALAY MAKULANG KANAKO"); list.add("210. GIKUHA N ANI CRISTO");
-        list.add("211. BALAANG ESPIRITU, LAMBAGI AKO"); list.add("212. KINSA MAN ANG NAGLUWAS");
-        list.add("213. ANAK KO SA HAR"); list.add("214. SILONG SA IYANG PAKO");
+        list.add("211. BALAANG ESPIRITU, LAMDAGI AKO"); list.add("212. KINSA MAN ANG NAGLUWAS");
+        list.add("213. ANAK KO SA HARI"); list.add("214. SILONG SA IYANG PAKO");
         list.add("215. SA MATAG GUTLO, JESUS, IMO KO"); list.add("216. AKONG GIHANGYO, GINOO KO");
         list.add("217. O GINOO,TUDLOI AKO"); list.add("218. UNTA AKONG TUTOKAN IKAW");
         list.add("219. DAYGON ANG DIOS NGA GAMHANAN"); list.add("220. MGA BINUHAT NGA TANAN");
@@ -209,7 +209,7 @@ public class HymnalFragment extends Fragment {
         list.add("229. SALIG"); list.add("230. ANG SAAD SA GINOO");
         list.add("231. MATAM-IS ANG GUGMA NIYA"); list.add("232. ANG BUOT MO TUMANA JESUS");
         list.add("233. AKO NAKIG-UBAN SA HARI"); list.add("234. AKONG MAGBALANTAY");
-        list.add("235. O BULUHANG KALAG"); list.add("236. KINABUHI KO,GINOO");
+        list.add("235. O BULAHANG KALAG"); list.add("236. KINABUHI KO,GINOO");
         list.add("237. GIHATAG KO BA ANG TANAN?"); list.add("238. JESUS, AKO NAGSAAD");
         list.add("239. MAY BAG-ONG ADLAW"); list.add("240. NAGASALIG");
         list.add("241. SI JESUS HIGALA NAKO"); list.add("242. UNTA MAHISAMA KANIMO");
@@ -682,7 +682,7 @@ public class HymnalFragment extends Fragment {
                     case 148:
                         targetActivity = Song149Activity.class;
                         break;
-                    case 1419:
+                    case 149:
                         targetActivity = Song150Activity.class;
                         break;
                     case 150:

@@ -28,7 +28,7 @@
                     android:textAlignment="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
-                    android:text="SA LANGITNONG HARI NAG-ALAGAD"
+                    android:text="SA LANGITNONG HARI NAG-ALAGAD KO"
                     android:textSize="30dp"/>
 
                 <TextView

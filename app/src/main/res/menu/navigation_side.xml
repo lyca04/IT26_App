@@ -3,24 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/nav_today"
-        android:icon="@drawable/baseline_calendar_today_24"
+        android:icon="@drawable/today"
         app:tint="#C4A484"
         android:title="Today"/>
 
     <item android:id="@+id/nav_bible"
-        android:icon="@drawable/bible"
+        android:icon="@drawable/uuu"
         android:title="Bible"/>
 
     <item android:id="@+id/nav_hymnal"
-        android:icon="@drawable/music"
+        android:icon="@drawable/hymn"
         android:title="Hymnal Song"/>
 
     <item android:id="@+id/nav_setting"
-        android:icon="@drawable/set"
+        android:icon="@drawable/sett"
         android:title="Settings"/>
 
     <item android:id="@+id/nav_me"
-        android:icon="@drawable/baseline_person_24"
+        android:icon="@drawable/me"
         android:title="Me"/>
 
 

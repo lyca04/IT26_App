@@ -1,9 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Num2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Numeros 2"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Ang Pagkahimutang sa mga Banay didto sa Kampo"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1  Ang Ginoo miingon kang Moises ug kang Aaron,"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  “Kinahanglan nga ang mga Israelita magkampo sumala sa ilang pundok ubos sa bandila sa ilang tagsatagsa ka banay. Magkampo sila libot sa Tolda nga Tagboanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3-9  “Sa dapit sa sidlakan, kadtong ubos sa bandila sa pundok ni Juda magkampo sa tagsatagsa nila ka banay, ubos sa ilang pangulo, ingon sa mosunod nga han-ay:
+ang banay ni Juda pinangulohan ni Nahason nga anak ni Aminadab kauban sa 74,600 ka lalaki;
+ang banay ni Isacar pinangulohan ni Natanael nga anak ni Suar kauban sa 54,400 ka lalaki
+ug ang banay ni Zabulon pinangulohan ni Eliab nga anak ni Helon kauban sa 57,400 ka lalaki.
+Ang tanang lalaki miabot ug 186,400.
+“Ang pundok ni Juda maoy mag-una paglakaw."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10-16   “Sa dapit sa habagatan, kadtong ubos sa bandila sa pundok ni Ruben magkampo sa tagsatagsa nila ka banay ubos sa ilang pangulo, ingon sa mosunod nga han-ay:
+ang banay ni Ruben pinangulohan ni Elisur nga anak ni Sedeur kauban sa 46,500 ka lalaki;
+ang banay ni Simeon pinangulohan ni Salamiel nga anak ni Surisadai kauban sa 59,300 ka lalaki
+ug ang banay ni Gad pinangulohan ni Eliasaf nga anak ni Deuel kauban sa 45,650 ka lalaki.
+Ang tanan miabot ug 151,450.
+“Ang pundok ni Ruben maoy mosunod paglakaw."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="17  “Unya mosunod ang Tolda nga Tagboanan kinuyogan sa mga Levita nga anha sa taliwala sa mga kampo, ingon sa ilang pagkampo, mao usab sa ilang pagpanglakaw. Ang matag usa anha gayod sa iyang dapit uban sa ilang bandila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="18-24   “Unya mosunod ang Tolda nga Tagboanan kinuyogan sa mga Levita nga anha sa taliwala sa mga kampo, ingon sa ilang pagkampo, mao usab sa ilang pagpanglakaw. Ang matag usa anha gayod sa iyang dapit uban sa ilang bandila."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="25-31   “Sa dapit sa amihanan, kadtong ubos sa bandila sa pundok ni Dan magkampo sa tagsatagsa nila ka banay ubos sa ilang pangulo, ingon sa mosunod nga han-ay:
+ang banay ni Dan, pinangulohan ni Ahieser nga anak ni Amisadai kauban sa 62,700 ka lalaki;
+ang banay ni Aser, pinangulohan ni Pagiel nga anak ni Ocran kauban sa 41,500 ka lalaki ug
+ang banay ni Neftali, pinangulohan ni Ahira nga anak ni Enan kauban sa 53,400 ka lalaki.
+Ang tanang lalaki miabot ug 157,600.
+“Ang pundok ni Dan maoy kataposang hut-ong nga mosunod sa paglakaw.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="32  Mao kini ang katawhan sa Israel sumala sa ilang tagsatagsa ka banay: 603,550 ka lalaki ang tanan."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="33  Ang mga Levita wala ilakip pag-ihap sumala sa gisugo sa Ginoo kang Moises."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="34  Busa ang mga Israelita nagkampo ug nagpanaw sumala sa ilang mga bandila ug sa ilang panimalay sumala sa gisugo sa Ginoo kang Moises."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

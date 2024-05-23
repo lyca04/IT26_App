@@ -19,7 +19,6 @@ public class DevotionModel {
         this.prayer = prayer;
     }
 
-    // Getters and setters for NoteModel fields
     public String getId() {
         return id;
     }

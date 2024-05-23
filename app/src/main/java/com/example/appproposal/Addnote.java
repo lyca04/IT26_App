@@ -1,6 +1,7 @@
 package com.example.appproposal;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,23 +12,33 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class Addnote extends AppCompatActivity {
 
-    private EditText verseEditText, opinionEditText, applicationEditText, prayerEditText;
+    private EditText dateEditText, titleEditText, contextEditText;
     private Button saveNoteButton;
     private DatabaseReference databaseReference;
+    private String noteId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addnote);
 
-        verseEditText = findViewById(R.id.verseEditText);
-        opinionEditText = findViewById(R.id.opinionEditText);
-        applicationEditText = findViewById(R.id.applicationEditText);
-        prayerEditText = findViewById(R.id.prayerEditText);
+        dateEditText = findViewById(R.id.dateEditText);
+        titleEditText = findViewById(R.id.titleEditText);
+        contextEditText = findViewById(R.id.contextEditText);
         saveNoteButton = findViewById(R.id.saveNoteButton);
 
         // Initialize Firebase database reference
         databaseReference = FirebaseDatabase.getInstance().getReference("note");
+
+        // Get noteId from intent if it's an update operation
+        noteId = getIntent().getStringExtra("noteId");
+        if (noteId != null) {
+            // Prepopulate fields if updating a note
+            dateEditText.setText(getIntent().getStringExtra("date"));
+            titleEditText.setText(getIntent().getStringExtra("title"));
+            contextEditText.setText(getIntent().getStringExtra("context"));
+            saveNoteButton.setText("Update Note");
+        }
 
         saveNoteButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,21 +49,23 @@ public class Addnote extends AppCompatActivity {
     }
 
     private void saveNote() {
-        String verse = verseEditText.getText().toString().trim();
-        String opinion = opinionEditText.getText().toString().trim();
-        String application = applicationEditText.getText().toString().trim();
-        String prayer = prayerEditText.getText().toString().trim();
+        String date = dateEditText.getText().toString().trim();
+        String title = titleEditText.getText().toString().trim();
+        String context = contextEditText.getText().toString().trim();
 
-        if (verse.isEmpty() || opinion.isEmpty() || application.isEmpty() || prayer.isEmpty()) {
+        if (date.isEmpty() || title.isEmpty() || context.isEmpty()) {
             Toast.makeText(this, "Please fill out all fields", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        String noteId = databaseReference.push().getKey();
-        NoteModel noteModel = new NoteModel(noteId, verse, opinion, application, prayer);
+        if (noteId == null) {
+            // Add new note
+            noteId = databaseReference.push().getKey();
+        }
+        NoteModel noteModel = new NoteModel(noteId, date, title, context);
         databaseReference.child(noteId).setValue(noteModel);
 
-        Toast.makeText(this, "Note saved", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, noteId != null ? "Note updated" : "Note saved", Toast.LENGTH_SHORT).show();
         finish();
     }
 }

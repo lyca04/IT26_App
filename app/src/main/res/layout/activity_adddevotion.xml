@@ -95,13 +95,13 @@
         android:layout_marginBottom="16dp" />
 
     <Button
-        android:id="@+id/saveNoteButton"
+        android:id="@+id/saveDevotionButton"
         android:layout_width="150dp"
         android:gravity="center"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:backgroundTint="#D9A04C"
-        android:text="Save Note"
+        android:text="Save Devotion"
         android:layout_marginTop="16dp" />
 
 </LinearLayout>

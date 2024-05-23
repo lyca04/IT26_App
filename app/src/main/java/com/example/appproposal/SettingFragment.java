@@ -9,7 +9,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -17,6 +19,9 @@ import android.widget.TextView;
  * create an instance of this fragment.
  */
 public class SettingFragment extends Fragment {
+
+    private Switch morningSwitch;
+    private Switch eveningSwitch;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -79,6 +84,29 @@ public class SettingFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), SettingAbout.class);
                 startActivity(intent);
+            }
+        });
+
+        morningSwitch = view.findViewById(R.id.switch1);
+        eveningSwitch = view.findViewById(R.id.switch2);
+
+        morningSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                AlarmUtils.setMorningAlarm(getContext());
+                Toast.makeText(getContext(), "Morning prayer alarm set", Toast.LENGTH_SHORT).show();
+            } else {
+                AlarmUtils.cancelMorningAlarm(getContext());
+                Toast.makeText(getContext(), "Morning prayer alarm canceled", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        eveningSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                AlarmUtils.setEveningAlarm(getContext());
+                Toast.makeText(getContext(), "Night prayer alarm set", Toast.LENGTH_SHORT).show();
+            } else {
+                AlarmUtils.cancelEveningAlarm(getContext());
+                Toast.makeText(getContext(), "Night prayer alarm canceled", Toast.LENGTH_SHORT).show();
             }
         });
 

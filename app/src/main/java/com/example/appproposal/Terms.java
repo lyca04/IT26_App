@@ -6,8 +6,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -22,7 +26,9 @@ import com.google.firebase.database.ValueEventListener;
 public class Terms extends Fragment {
 
     private ImageView adddevotion;
-    private TextView noteTextView1;
+
+    private LinearLayout devotionContainer;
+
     private DatabaseReference databaseReference;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -70,7 +76,7 @@ public class Terms extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_terms, container, false);
-        noteTextView1 = view.findViewById(R.id.noteTextView2);
+        devotionContainer = view.findViewById(R.id.devotionContainer);
         adddevotion = view.findViewById(R.id.add_devotion);
 
         // Initialize Firebase database reference
@@ -80,18 +86,13 @@ public class Terms extends Fragment {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                StringBuilder notesBuilder = new StringBuilder();
+                devotionContainer.removeAllViews(); // clear previous views
                 for (DataSnapshot noteSnapshot : dataSnapshot.getChildren()) {
-                    DevotionModel note = noteSnapshot.getValue(DevotionModel.class);
-                    if (note != null) {
-                        notesBuilder.append("Scripture: ").append(note.getVerse()).append("\n")
-                                .append("Opinion: ").append(note.getOpinion()).append("\n")
-                                .append("Application: ").append(note.getApplication()).append("\n")
-                                .append("Prayer: ").append(note.getPrayer()).append("\n\n");
+                    DevotionModel devotion = noteSnapshot.getValue(DevotionModel.class);
+                    if (devotion != null) {
+                        addDevotionView(devotion);
                     }
                 }
-                noteTextView1.setText(notesBuilder.toString());
-                noteTextView1.setVisibility(View.VISIBLE);
             }
 
             @Override
@@ -109,5 +110,44 @@ public class Terms extends Fragment {
         });
 
         return view;
+    }
+
+    private void addDevotionView(DevotionModel devotion) {
+        View devotionView = getLayoutInflater().inflate(R.layout.devotion_item, null);
+
+        TextView verseTextView = devotionView.findViewById(R.id.verseTextView);
+        TextView opinionTextView = devotionView.findViewById(R.id.opinionTextView);
+        TextView applicationTextView = devotionView.findViewById(R.id.applicationTextView);
+        TextView prayerTextView = devotionView.findViewById(R.id.prayerTextView);
+        Button updateButton_dev = devotionView.findViewById(R.id.updateButton_dev);
+        Button deleteButton_dev = devotionView.findViewById(R.id.deleteButton_dev);
+
+        verseTextView.setText("Scripture: " + devotion.getVerse());
+        opinionTextView.setText("Opinion: " + devotion.getOpinion());
+        applicationTextView.setText("Application: " + devotion.getApplication());
+        prayerTextView.setText("Prayer: " + devotion.getPrayer());
+
+        updateButton_dev.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Adddevotion.class);
+                intent.putExtra("devotionId", devotion.getId());
+                intent.putExtra("verse", devotion.getVerse());
+                intent.putExtra("opinion", devotion.getOpinion());
+                intent.putExtra("application", devotion.getApplication());
+                intent.putExtra("prayer", devotion.getPrayer());
+                startActivity(intent);
+            }
+        });
+
+        deleteButton_dev.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                databaseReference.child(devotion.getId()).removeValue();
+                Toast.makeText(getActivity(), "Devotion deleted", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        devotionContainer.addView(devotionView);
     }
 }

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
-    android:layout_marginBottom="70dp"
+    android:layout_marginBottom="60dp"
     android:orientation="vertical"
     android:background="#ADD8E6"
     android:padding="16dp"
@@ -23,9 +23,9 @@
 
     <ImageView
         android:id="@+id/add_devotion"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="320dp"
         android:src="@drawable/plus" />
 
     <ScrollView
@@ -33,16 +33,32 @@
         android:layout_height="match_parent"
         android:layout_marginTop="70dp">
 
-        <TextView
-            android:id="@+id/noteTextView2"
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:textSize="20dp"
-            android:fontFamily="@font/amethysta"
-            android:textAlignment="textStart"
-            android:text="No notes available"
-            android:visibility="gone" />
+            android:layout_height="match_parent"
+            android:layout_below = "@id/add_devotion">
+
+            <TextView
+                android:id="@+id/noteTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/amethysta"
+                android:textAlignment="textStart"
+                android:text="No notes available"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/devotionContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+
+        </LinearLayout>
+
     </ScrollView>
 
 

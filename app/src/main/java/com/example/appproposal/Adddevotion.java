@@ -12,8 +12,9 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Adddevotion extends AppCompatActivity {
 
     private EditText verseEditText, opinionEditText, applicationEditText, prayerEditText;
-    private Button saveNoteButton;
+    private Button saveDevotionButton;
     private DatabaseReference databaseReference;
+    private String devotionId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +25,21 @@ public class Adddevotion extends AppCompatActivity {
         opinionEditText = findViewById(R.id.opinionEditText);
         applicationEditText = findViewById(R.id.applicationEditText);
         prayerEditText = findViewById(R.id.prayerEditText);
-        saveNoteButton = findViewById(R.id.saveNoteButton);
+        saveDevotionButton = findViewById(R.id.saveDevotionButton);
 
         // Initialize Firebase database reference
         databaseReference = FirebaseDatabase.getInstance().getReference("devotion");
 
-        saveNoteButton.setOnClickListener(new View.OnClickListener() {
+        devotionId = getIntent().getStringExtra("devotionId");
+        if(devotionId != null) {
+            verseEditText.setText(getIntent().getStringExtra("verse"));
+            opinionEditText.setText(getIntent().getStringExtra("opinion"));
+            applicationEditText.setText(getIntent().getStringExtra("application"));
+            prayerEditText.setText(getIntent().getStringExtra("prayer"));
+            saveDevotionButton.setText("Update Devotion");
+        }
+
+        saveDevotionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 saveNote();
@@ -47,12 +57,13 @@ public class Adddevotion extends AppCompatActivity {
             Toast.makeText(this, "Please fill out all fields", Toast.LENGTH_SHORT).show();
             return;
         }
-
-        String devotionId = databaseReference.push().getKey();
+        if(devotionId == null){
+            devotionId = databaseReference.push().getKey();
+        }
         DevotionModel devotionModel = new DevotionModel(devotionId, verse, opinion, application, prayer);
         databaseReference.child(devotionId).setValue(devotionModel);
 
-        Toast.makeText(this, "Note saved", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,devotionId != null ? "Devotion updated" : "Note saved", Toast.LENGTH_SHORT).show();
         finish();
     }
 }

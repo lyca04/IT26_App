@@ -1,9 +1,268 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bible_frag"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#F7EBAC"
+    android:paddingTop="5dp"
     tools:context=".Num7">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt_old"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D9A04C"
+        android:fontFamily="@font/bigshot_one"
+        android:padding="10dp"
+        android:text="Numeros 7"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBAC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Mga Halad sa mga Pangulo"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="1  Human mapatindog ni Moises ang Tolda sa Ginoo, gidihogan ug gihalad niya kini uban sa tanang galamiton niini ingon man ang halaran uban sa mga galamiton niini."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:textAlignment="inherit"
+                    android:text="2  Unya ang mga kadagkoan sa Israel nga pangulo sa tagsatagsa nila ka banay ug panimalay, ug nga maoy nagdumala sa pagpanglista,"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="3  nagdala sa ilang mga halad sa atubangan sa Ginoo. Ang ilang gidala unom ka karwahi nga may atop ug 12 ka baka: usa ka karwahi sa matag duha ka pangulo ug usa ka baka sa matag usa kanila. Gihalad nila kini atubangan sa Ginoo."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="4  Unya miingon ang Ginoo kang Moises,"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="5  “Dawata ang ilang halad aron magamit kini alang sa mga buluhaton sa Tolda nga Tagboanan ug ihatag kini ngadto sa mga Levita sumala sa ilang buluhaton.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="6  Busa gidawat ni Moises ang mga karwahi ug ang mga baka ug gihatag kini sa mga Levita."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="7  Duha ka karwahi ug upat ka baka ang iyang gihatag sa mga anak ni Gerson alang sa ilang buluhaton."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="8  Ang mga anak ni Merari gihatagan niyag upat ka karwahi ug walo ka buok baka alang sa ilang buluhaton nga ubos sa pagdumala ni Itamar nga anak ni Aaron."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="9  Apan ang mga anak ni Kohat wala niya hatagi bisag usa kay sila may nag-atiman sa balaang mga butang nga kinahanglang pas-anon."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="10  Ang mga pangulo nagdala usab ug mga gasa alang sa paghalad sa halaran sa adlaw nga kini gidihogan. Gihalad kini sa mga kadagkoan didto sa atubangan sa halaran. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="11  Unya miingon ang Ginoo kang Moises, “Kinahanglan nga sa matag adlaw sulod sa 12 ka adlaw, usa ka pangulo ang magdala ug mga gasa nga alang sa paghalad sa halaran.”"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="12-83   Gidala nila ang ilang mga halad niining mosunod nga han-ay:
+Adlaw	Banay	Pangulo
+Una	Juda	Nahason nga anak ni Aminadab
+Ikaduha	Isacar	Natanael nga anak ni Suar
+Ikatulo	Zabulon	Eliab nga anak ni Helon
+Ikaupat	Ruben	Elisur nga anak ni Sedeur
+Ikalima	Simeon	Selumiel nga anak ni Surisadai
+Ikaunom	Gad	Eliasaf nga anak ni Deuel
+Ikapito	Efraim	Elisama nga anak ni Amihud
+Ikawalo	Manases	Gamaliel nga anak ni Pedasur
+Ikasiyam	Benjamin	Abidan nga anak ni Gideoni
+Ikanapulo	Dan	Ahieser nga anak ni Amisadai
+Ikanapulog-usa	Aser	Pagiel nga anak ni Ocran
+Ikanapulog-duha	Neftali	Ahira nga anak ni Enan
+Managsama ang halad nga gidala sa matag usa ka pangulo: usa ka plata nga bandihado nga may gibug-aton nga usa ka kilo ug tunga ug usa ka planggana nga plata nga may gibug-aton nga 800 ka gramo sumala sa opisyal nga sukdanan nga gigamit sa Dapit nga Balaan (kining duha puno sa harina nga gisagolag lana alang sa halad nga pagkaon); usa ka bulawang plato nga may gibug-aton nga 114 ka gramo ug puno kini sa insenso; usa ka toriyong baka, usa ka torong karnero ug usa ka laking karnero nga usa ka tuig ang kagulangon alang sa halad nga sunogon; usa ka kanding alang sa halad sa sala ug duha ka baka, lima ka torong karnero, lima ka laking kanding ug lima ka laking karnero nga usa ka tuig ang kagulangon alang sa halad sa pakigdait."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="84-88  Ang tanang mga halad nga gidala sa 12 ka pangulo alang sa paghalad sa halaran mao kining mosunod:
+– 12 ka platang bandihado ug 12 ka platang planggana nga miabot ug 27.5 ka kilo ang gibug-aton sa tanan;
+– 12 ka bulawang plato nga puno sa insenso ug may gibug-aton nga 1.36 ka kilo ang tanan
+– 12 ka toriyong baka, 12 ka torong karnero, 12 ka laking karnero nga usa ka tuig ang kagulangon ug uban niini ang mga halad nga uhay alang sa halad nga sunogon;
+– 12 ka laking kanding nga ihalad tungod sa sala ug
+– 24 ka toriyong baka, 60 ka torong karnero, 60 ka laking kanding ug 60 ka nating karnero nga usa ka tuig ang kagulangon alang sa mga halad sa pakigdait."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:text="89  Sa pagsulod ni Moises sa Tolda nga Tagboanan aron sa pagpakigsulti sa Ginoo, nabati niya ang tingog sa Ginoo nga misulti kaniya gikan sa ibabaw sa Sudlanan sa Kasabotan sa tungatunga sa duha ka kerubin."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

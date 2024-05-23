@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
     implementation("androidx.activity:activity:1.8.0")
     val fragment_version = "1.6.1"
     implementation("androidx.appcompat:appcompat:1.6.1")
