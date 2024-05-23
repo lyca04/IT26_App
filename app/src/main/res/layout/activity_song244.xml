@@ -28,7 +28,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
-                    android:text="UNTA MAHISAMA KAΝΙΜΟ"
+                    android:text="KABIGON KONG MGA KALAG"
                     android:textSize="30dp"/>
 
                 <TextView
@@ -49,13 +49,13 @@
                     android:layout_marginLeft="10dp"
                     android:text="Dios, hatagan mo ako. Ug gugma sa kalag, Buhaton kong mahimo ko, Pagkabig ug kalag."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp" /> />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="170dp"
+                    android:layout_marginLeft="200dp"
                     android:textSize="22dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="CORO"/>
@@ -69,7 +69,7 @@
                     android:layout_marginLeft="10dp"
                     android:text="Kabigon kang mga kalag, Pag-ampo ko kini; Sa adlaw-adlaw nga tanan, Tabangan mo ako."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -87,6 +87,7 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Tugti, O Ginoo ko, Maako'ng gugma Mo; Ug sa gahum Mo pun-a ko, Pagkabig sa kalag."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -95,10 +96,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="200dp"
-                    android:textSize="22dp"
-                    android:fontFamily="@font/bigshot_one"
-                    android:text="3"/>
+                    android:fontFamily="@font/amethysta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -107,6 +111,7 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Kabigon kong nangawala, Maoy pag-ampo ko; Ug unya sa himaya, Mo, Makita ko sila"
                     android:textAlignment="center"
                     android:textSize="22dp"/>

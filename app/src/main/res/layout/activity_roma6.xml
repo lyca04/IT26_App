@@ -53,7 +53,7 @@
                     android:fontFamily="@font/amarante"
                     android:padding="10dp"
                     android:textStyle="bold"
-                    android:text="Ang Gugma sa Ginoo alang sa Israel"
+                    android:text="Bahin sa Sala Patay na Kita"
                     android:textColor="@color/black"
                     android:textSize="25dp" />
 
@@ -66,8 +66,7 @@
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="1  Mao kini ang gisulti sa Ginoo kang Malaquias
-aron isulti ngadto sa katawhan sa Israel."
+                    android:text="1  Busa unsa may atong ikasulti karon? Magpadayon ba kita sa pagpakasala aron modugang ang grasya sa Dios?"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -80,10 +79,7 @@ aron isulti ngadto sa katawhan sa Israel."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="2  Ang Ginoo miingon sa iyang katawhan, “Gihigugma ko kamo kanunay.”
-Apan mitubag sila, “Giunsa mo man kami paghigugma?”
-Ang Ginoo mitubag, “Si Esau ug si Jacob magsoon apan gihigugma ko si
-Jacob ug ang iyang mga kaliwat"
+                    android:text="2  Dili gayod! Kay mahitungod sa pagpakasala patay na kita busa unsaon man nato pagpadayon pagkinabuhi diha sa sala? "
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -96,8 +92,7 @@ Jacob ug ang iyang mga kaliwat"
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="3  ug gikasilagan ko si Esau ug ang iyang mga kaliwat. Gigun-ob ko ang kabungtoran ni Esau ug gitugyan ko
-ang iyang kayutaan ngadto sa ihalas nga mga mananap.”"
+                    android:text="3  Nasayod kamo nga sa pagbunyag kanato nahiusa kita kang Cristo Jesus busa nahiusa kita sa iyang kamatayon. "
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -110,8 +105,7 @@ ang iyang kayutaan ngadto sa ihalas nga mga mananap.”"
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="4  Nahimuot ang Dios sa kahayag nga iyang nakita
-                    ug gilain niya kini gikan sa kangitngit. "
+                    android:text="4  Tungod niini, sa pagbunyag kanato gilubong kita uban kaniya ug miambit sa iyang kamatayon aron ingon nga si Cristo gibanhaw sa mahimayaong gahom sa Amahan, kita usab angay nga magkinabuhi sa bag-ong kinabuhi."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -124,9 +118,7 @@ ang iyang kayutaan ngadto sa ihalas nga mga mananap.”"
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="5  Ginganlan niyag “Adlaw” ang kahayag ug ang kangitngit ginganlan niyag “Gabii.” Milabay
-                    ng kagabhion ug miabot ang kabuntagon.
-Mao kadto ang unang adlaw."
+                    android:text="5  Kay kon nahiusa kita kaniya diha sa iyang pagkamatay, mahiusa usab kita kaniya kon banhawon na kita ingon nga gibanhaw siya."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -139,8 +131,7 @@ Mao kadto ang unang adlaw."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="6  Unya miingon ang Dios, “Motungha ang usa ka
-                    wanang nga magbahin sa katubigan.” Ug nahimo kini."
+                    android:text="6  Kay nasayod kita nga ang atong daan ug makasasala nga pagkatawo gilansang na uban ni Cristo aron malaglag kini ug dili na kita maulipon sa sala."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -153,9 +144,7 @@ Mao kadto ang unang adlaw."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="7  Pinaagi sa gibuhat niyang wanang, gilain sa
-                    Dios ang tubig nga didto sa ibabaw gikan
-                    sa tubig nga dinhi sa ubos ug nahimo kini. "
+                    android:text="7  Kay wala nay gahom ang sala ngadto sa tawo nga patay na."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -168,9 +157,7 @@ Mao kadto ang unang adlaw."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="8  Ginganlan niyag “Langit” ang wanang.
-                    Milabay na usab ang kagabhion ug miabot ang
-                     kabuntagon. Mao kadto ang ikaduhang adlaw."
+                    android:text="8  Kon namatay kita uban kang Cristo, gituohan nato nga mabuhi usab kita uban kaniya."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -183,8 +170,7 @@ Mao kadto ang unang adlaw."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="9  Unya miingon ang Dios, “Matingob sa usa lamang ka dapit ang tubig ubos sa langit
-                     aron motungha ang yutang mala.” Ug nahimo kini."
+                    android:text="9  Kay nasayod kita nga si Cristo gibanhaw ug dili na gayod siya mamatay pag-usab ug ang kamatayon wala nay gahom ibabaw kaniya."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -197,8 +183,7 @@ Mao kadto ang unang adlaw."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="10  Ginganlan sa Dios ug “Yuta” ang mala ug ang tubig nga nalain ginganlan niyag
-                    “Dagat.” Nakita sa Dios nga maayo ang iyang gibuhat."
+                    android:text="10  Ang iyang kamatayon mao ang kamatayon nga nagwagtang sa sala makausa alang sa tanang panahon ug nagkinabuhi siya karon alang lamang sa Dios."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -211,9 +196,7 @@ Mao kadto ang unang adlaw."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="11  Unya miingon siya, “Moturok sa yuta ang nagkalainlaing mga tanom: kadtong may
-                     binhi ug kadtong mga kahoy nga mamunga.”
-Ug nahimo kini."
+                    android:text="11  Busa isipa ang inyong kaugalingon nga patay na sa pagpakasala apan buhi alang sa Dios, hiniusa kang Cristo Jesus."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -226,8 +209,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="12  Busa miturok sa yuta ang tanang matang sa tan
-                    om. Nakita sa Dios nga maayo ang iyang gibuhat."
+                    android:text="12  Busa ayaw na paharia ang sala diha sa inyong mga lawas nga may kamatayon aron dili na kamo madaog sa inyong kailibgon."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -240,8 +222,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="13  Milabay na usab ang kagabhion ug miabot ang ka
-                    buntagon. Kadto mao ang ikatulong adlaw."
+                    android:text="13  Ayaw usab ninyo itugyan ang bisan unsang bahin sa inyong lawas aron gamiton sa daotang katuyoan. Hinuon, itugyan sa Dios ang inyong kaugalingon ingon nga mga gibanhaw gikan sa kamatayon ug itugyan ang inyong kaugalingon ngadto sa Dios aron gamiton alang sa matarong nga katuyoan."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -254,9 +235,32 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="14  Unya miingon na usab ang Dios, “Motungha ang mga iwag diha sa langit nga
-                    maoy magbulag sa adlaw gikan sa gabii ug magpaila sa pagsugod sa mga adlaw ug sa mga tuig ug sa
-                    mahinungdanong mga panahon."
+                    android:text="14  Kinahanglan nga dili na kamo magpaulipon sa sala kay dili na man kamo ilalom sa balaod kondili ilalom na sa grasya sa Dios."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amarante"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Mga Ulipon sa Pagkamatarong"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#D9A04C"
+                    android:fontFamily="@font/amethysta"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="15  Karon, unsa man? Magpakasala ba diay kita tungod kay dili na man kita ilalom sa balaod kondili ilalom na sa grasya sa Dios? Dili gayod!"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -269,8 +273,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="15  Modan-ag kini sila sa kalangitan aron paghatag
-                     ug kahayag sa kalibotan.” Ug nahimo kini."
+                    android:text="16  Nasayran ninyo nga kon matinumanon kamo nga magpaulipon ni bisan kinsa, ulipon kamo niya. Kon nagpaulipon kamo sa sala, ulipon kamo sa sala ug moresulta kini sa kamatayon. Kon magmatinumanon kamo sa Dios, moresulta kini sa inyong pagkamatarong."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -283,9 +286,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="16  Busa gibuhat sa Dios ang duha ka dagkong iwag: ang adlaw nga maoy maghatag
-                    ug kahayag sa panahon sa adlaw ug ang bulan sa panahon sa gab
-                    ii. Gibuhat usab niya ang mga bituon."
+                    android:text="17  Apan salamat sa Dios kay bisan ug kaniadto naulipon kamo sa sala, karon sa kinasingkasing nagmatinumanon kamo sa mga pagtulon-an nga nadawat ninyo."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -298,8 +299,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="17  Gipahimutang sa Dios ang mga iwag diha sa lan
-                    git aron magdan-ag sa kalibotan"
+                    android:text="18  Giluwas kamo gikan sa sala ug nangahimo nang mga ulipon sa pagkamatarong."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -312,8 +312,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="18  ug maghatag ug kahayag sa adlaw ug sa gabii ug maglain sa kahayag gikan sa
-                    kangitngit. Nakita sa Dios nga maayo ang iyang gibuhat."
+                    android:text="19  (Tungod sa inyong tawhanong kahuyang gigamit ko ang yanong mga pulong.) Kon kaniadto gigamit ninyo ang inyong kaugalingon alang sa mga buhat nga malaw-ay ug daotan, karon gamita na ang inyong kaugalingon alang sa mga buhat nga matarong ug sa balaan nga katuyoan."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -326,8 +325,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="19  Unya milabay na usab ang kagabhion ug miabot
-                     ang kabuntagon. Kadto mao ang ikaupat nga adlaw."
+                    android:text="20  Kaniadto sa ulipon pa kamo sa sala, dili kamo ulipon sa pagkamatarong."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -340,9 +338,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="20  Miingon na usab ang Dios, “Mapuno ang katubigan sa nagkalainlaing mga buhing
-                    mananap ug mapuno usab sa mga langgam ang kahanginan.” Ug na
-                    himo kini."
+                    android:text="21  Ug unsa may kaayohan nga naani ninyo sa inyong pagbuhat sa mga butang nga karon gikaulaw na ninyo? Kamatayon ra gayod ang sangpotanan!"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -355,9 +351,7 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="21  Busa gibuhat sa Dios ang mga dagkong mananap sa kadagatan ug ang tanang matang
-                    sa mananap sa katubigan ug ang tanang matang sa langgam.
-                    Nakita sa Dios nga maayo ang iyang gibuhat."
+                    android:text="22  Apan karon nga naluwas na kamo gikan sa sala ug nag-alagad na sa Dios, ang balos nga madawat ninyo mao ang pagkabalaan nga mosangpot sa kinabuhing walay kataposan."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -370,144 +364,12 @@ Ug nahimo kini."
                     android:padding="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="22  Unya gipanalanginan sa Dios ang mga mananap sa kadagatan ug giingnan, “Sanay kamo
-                    ug lukpa ninyo ang kadagatan!” Ngadto sa mga langgam mi
-                    ingon siya, “Sanay kamo!”"
+                    android:text="23  Kay ang bayad sa pagpakasala mao ang kamatayon apan ang gasa sa Dios mao ang kinabuhing walay kataposan nga anaa kang Cristo Jesus nga atong Ginoo."
                     android:textColor="@color/black"
                     android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="23  Ug milabay ang kagabhion ug miabot ang kabu
-                    ntagon. Kadto mao ang ikalimang adlaw."
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="24  Unya miingon ang Dios, “Motungha sa kalibotan ang nagkalainlaing mga mananap:
-                     mga kahayopan ug tanang matang sa mga ihalas nga mananap.”
-                     Ug nahimo kini."
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="25  Busa gibuhat niya ang tanang matang sa mga kahayopan ug mga ihalas nga mananap.
-                    Nakita sa Dios nga maayo ang iyang gibuhat ug nalipay siya."
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="26  Unya miingon na usab ang Dios, “Buhaton nato ang tawo sama sa atong dagway.
-                    Sila maoy magbuot sa mga isda, sa mga langgam, sa mga
-                    kahayopan ug sa tanang ihalas nga mananap.”"
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="27  Busa gibuhat sa Dios ang tawo, lalaki ug
-                     babaye, sama sa iyang dagway."
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="28  Ug gipanalanginan sila sa Dios nga nag-ingon, “Panganak kamog daghan ug lukpa
-                    ang kalibotan sa inyong mga liwat ug dumalaha ang kalibotan. Kamoy magbuot sa mga isda ug sa mga
-                    langgam ug sa tanang ihalas nga mananap.”"
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="29  Unya miingon ang Dios, “Gihatag ko kaninyo ang tanang matang sa tanom nga may
-                    binhi ug ang tanang bunga sa kahoy aron inyong kan-on."
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="30  Gihatag ko usab sa tanang ihalas nga mananap ug sa kalanggaman ang mga tanom
-                     nga lunhaw aron ilang kan-on.” Ug nahimo kini."
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#D9A04C"
-                    android:fontFamily="@font/amethysta"
-                    android:padding="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="31  Nakita sa Dios nga maayo gayod ang tanan nga iyang gibuhat ug nalipay kaayo
-                    siya. Milabay na usab ang kagabhion ug miabot ang kabuntagon.
-                     Ug kadto mao ang ikaunom nga adlaw."
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
-
 
             </LinearLayout>
+
         </ScrollView>
 
     </RelativeLayout>

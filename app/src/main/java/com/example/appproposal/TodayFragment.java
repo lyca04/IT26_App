@@ -102,7 +102,6 @@ public class TodayFragment extends Fragment {
                             int randomIndex = random.nextInt(contentList.size());
                             DataSnapshot randomData = contentList.get(randomIndex);
 
-                            String imageUrl = randomData.child("image").getValue(String.class);
                             String verseText = randomData.child("verse").getValue(String.class);
                             String verseNumText = randomData.child("verse_num").getValue(String.class);
                             String pray1Text = randomData.child("pray1").getValue(String.class);
@@ -112,7 +111,7 @@ public class TodayFragment extends Fragment {
                             Log.d(TAG, "Randomized Data: " + randomData.getValue());
 
                             if (isAdded()) {
-                                Glide.with(requireContext()).load(imageUrl).into(imageView);
+
                                 verse.setText(verseText);
                                 verseNum.setText(verseNumText);
                                 pray1.setText(pray1Text);

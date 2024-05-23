@@ -110,11 +110,11 @@ public class Roma extends AppCompatActivity implements View.OnClickListener{
             startActivity(i);
         }
         if (viewId == R.id. roma13){
-            i = new Intent(this, Roma3.class);
+            i = new Intent(this, Roma13.class);
             startActivity(i);
         }
         if (viewId == R.id. roma14){
-            i = new Intent(this, Roma4.class);
+            i = new Intent(this, Roma14.class);
             startActivity(i);
         }
         if (viewId == R.id. roma15){

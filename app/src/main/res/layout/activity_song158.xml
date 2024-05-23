@@ -28,13 +28,13 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
-                    android:text="HADUOL, O JESUS"
+                    android:text="ANG ALANIHON"
                     android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="200dp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="1"
@@ -47,15 +47,15 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="Magpugas sa buntag ug sa kahaponon, Buhat sa kaluoy, magpugas kita; Maghulat sa ani sa dakung kalipay, Dili na madugay magaani ta."
+                    android:text=" Magpugas sa buntag ug sa kahaponon, Buhat sa kaluoy, magpugas kita; Maghulat sa ani sa dakung kalipay, Dili na madugay magaani ta."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp" /> />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="170dp"
+                    android:layout_gravity="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="CORO"/>
@@ -69,13 +69,13 @@
                     android:layout_marginLeft="10dp"
                     android:text="Ang alanihon, ang alanihon, Sa dakung kalipay dad-on na karon; Ang alanihon, ang alanihon, Sa dakung kalipay dad-on na karon."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="200dp"
+                    android:layout_gravity="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="2"/>
@@ -87,6 +87,7 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Magpugas sa hayag, magpugas sa landong, Ug walay kahadlok sa dangatan ta; Dili na madugay moabut kanato, Ang dakung kalipay sa alanihon."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -95,10 +96,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="200dp"
-                    android:textSize="22dp"
-                    android:fontFamily="@font/bigshot_one"
-                    android:text="3"/>
+                    android:fontFamily="@font/amethysta"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -107,9 +110,11 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Bisan pa may luha, bisan may kasakit, Alang sa Ginoo magpugas kita; Tapus sa kabudlay lya tang pagtawgon, Dili na madugay magaani ta."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
+
             </LinearLayout>
 
         </ScrollView>

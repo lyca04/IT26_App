@@ -25,19 +25,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:layout_gravity="center"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
-                    android:text="GINAHALAD MO BA ANG TANAN?"
+                    android:text="MANLULUWAS KONG JESUS"
                     android:textSize="30dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="200dp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="1"
@@ -52,13 +49,13 @@
                     android:layout_marginLeft="10dp"
                     android:text="Manluluwas kong Jesus, Labaw Ka sa kinabuhi ko; Kay giula Mong dugo; Pagtipigi ko sa luyo Mo."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp" /> />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="170dp"
+                    android:layout_gravity="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="CORO"/>
@@ -72,13 +69,13 @@
                     android:layout_marginLeft="10dp"
                     android:text="Sa tanang panahon, Padul-i ako gayud; Unta nga sa gugma Mo, Sa luyo Mo masalipdan ko."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="200dp"
+                    android:layout_gravity="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="2"/>
@@ -90,18 +87,21 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Ning mabalhinong dapit, Mandoi ako, O Ginoo; Di ako masalaag, Kay mosalig ko Kanimo man."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="200dp"
-                    android:textSize="22dp"
-                    android:fontFamily="@font/bigshot_one"
-                    android:text="3"/>
+                    android:fontFamily="@font/amethysta"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -110,11 +110,10 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="Patuboang gugma ko, Hangtud nga ang panaw tapus na; Ug sa gugma Mo hupngon, Sa puloy-an Mo nga langitnon."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
-
-
+                    android:textSize="22dp"/>
 
             </LinearLayout>
 

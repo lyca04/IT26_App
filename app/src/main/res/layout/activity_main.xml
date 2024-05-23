@@ -12,85 +12,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="400dp"
+            android:fontFamily="@font/charm"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:text="Stay Devoted, Stay Connected"/>
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginBottom="450dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="280dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/bg2" />
+            android:src="@drawable/start2" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/bigshot_one"
-            android:layout_marginTop="80dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:text="'Praise God! God bless him who comes in the name of the Lord!'"
-            android:textSize="35dp"
-            android:textColor="@color/black"/>
-
-        <TextView
+            android:id="@+id/date_bg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="230dp"
-            android:layout_marginLeft="145dp"
-            android:fontFamily="@font/bigshot_one"
-            android:text="Mark 11:9b"
-            android:textColor="@color/black"
-            android:textSize="25dp" />
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/amarante"
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
 
         <TextView
+            android:id="@+id/qoute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:layout_marginLeft="20dp"
-            android:fontFamily="@font/amethysta"
-            android:text="Let's Pray"
-            android:textColor="@color/black"
-            android:textSize="20dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:layout_marginTop="350dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:text="@string/pray"
-            android:textColor="@color/black"
-            android:textSize="18dp"
-            android:fontFamily="@font/amethysta"
-            android:justificationMode="inter_word"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:text="@string/pray1"
-            android:textSize="18dp"
-            android:textColor="@color/black"
-            android:layout_marginTop="470dp"
-            android:fontFamily="@font/amethysta"
-            android:justificationMode="inter_word"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:text="@string/pray2"
-            android:textSize="18dp"
-            android:textColor="@color/black"
-            android:layout_marginTop="580dp"
-            android:fontFamily="@font/amethysta"
-            android:justificationMode="inter_word"/>
-
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/amarante"
+            android:layout_gravity="center"
+            android:text="God is watching us"
+            android:textSize="30dp"/>
 
         <Button
             android:id="@+id/amen"
@@ -100,7 +59,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFDD0"
             android:fontFamily="@font/bigshot_one"
-            android:text="AMEN"
+            android:text="START"
             android:textSize="30dp"
             android:textColor="@color/black" />
 

@@ -25,13 +25,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:layout_gravity="center"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amarante"
-                    android:text="GINOO IPADALA AKO"
+                    android:text="MATINUMANON KA"
                     android:textSize="30dp"/>
 
                 <TextView
@@ -50,15 +47,15 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:text="MATINUMANON KA, DIOS AMAHAN KO! DILI GAYUD MABALHINON IKAW; DI KA MOPAKYAS SA IMONG KALUOY,  SA KAHANGTURAN DI KA MAUSAB."
+                    android:text="MATINUMANON KA, DIOS AMAHAN KO! DILI GAYUD MABALHINON IKAW; DI KA MOPAKYAS SA IMONG KALUOY, SA KAHANGTURAN DI KA MAUSAB."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp" /> />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="170dp"
+                    android:layout_gravity="center"
                     android:textSize="22dp"
                     android:fontFamily="@font/bigshot_one"
                     android:text="CORO"/>
@@ -68,11 +65,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/amethysta"
-                    android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:text="MATINUMANON KA! MATINUMANON KA! NAGAPADAYON ANG KALUOY MO; GIHATAG MONG AKONG GIKINAHANGLAN, MATINUMANON KA, GINOO KO."
+                    android:layout_marginLeft="10dp"
+                    android:text="“MATINUMANON KA! MATINUMANON KA!” NAGAPADAYON ANG KALUOY MO; GIHATAG MONG AKONG GIKINAHANGLAN, MATINUMANON KA, GINOO KO."
                     android:textAlignment="center"
-                    android:textSize="22dp" />
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -90,6 +87,7 @@
                     android:fontFamily="@font/amethysta"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="ANG ADLAW, BULAN UG KABITUONAN, ANG PAGPUGAS INGON ANG PAG-ANI; NANAGHIUSA SA ILANG PAGSAKSI, SA IMONG GUGMA UG KALUOY MAN."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
@@ -98,10 +96,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="200dp"
-                    android:textSize="22dp"
-                    android:fontFamily="@font/bigshot_one"
-                    android:text="3"/>
+                    android:fontFamily="@font/amethysta"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="22dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -111,9 +111,10 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="KAPASAYLOAN UG DAYONG KALINAW, UG ANG KANUNAY NGA PAGMANDO MO; ‘NAA KANIMO PAGLAUM, KUSOG KO, ANG PANALANGIN MO AKO GAYUD."
+                    android:text="ANG ADLAW, BULAN UG KABITUONAN, ANG PAGPUGAS INGON ANG PAG-ANI; NANAGHIUSA SA ILANG PAGSAKSI, SA IMONG GUGMA UG KALUOY MAN."
                     android:textAlignment="center"
                     android:textSize="22dp"/>
+
 
             </LinearLayout>
 
